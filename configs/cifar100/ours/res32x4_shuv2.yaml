@@ -1,0 +1,18 @@
+EXPERIMENT:
+  NAME: ""
+  TAG: "kd_ours,res32x4,shuv2"
+  PROJECT: "cifar100_baselines_epoch960"
+DISTILLER:
+  TYPE: "KD_ours"
+  TEACHER: "resnet32x4"
+  STUDENT: "ShuffleV2"
+SOLVER:
+  BATCH_SIZE: 64
+  EPOCHS: 960
+  LR: 0.001
+  LR_DECAY_STAGES: [150, 180, 210]
+  LR_DECAY_RATE: 0.1
+  WEIGHT_DECAY: 0.0005
+  MOMENTUM: 0.9
+  TYPE: "SGD"
+  TRAINER: "ours"
