@@ -1,5 +1,8 @@
 # Code release for Logit Standardization in Knowledge Distillation (CVPR 2024).
 
+<div style="text-align:center"><img src=".github/1_1.pdf" width="50%" ></div>
+
+<div style="text-align:center"><img src=".github/2_2.pdf" width="50%" ></div>
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>), [Multi-Level-Logit-Distillation](<https://github.com/Jin-Ying/Multi-Level-Logit-Distillation>), [CTKD](<https://github.com/zhengli97/CTKD>) and [tiny-transformers](<https://github.com/lkhl/tiny-transformers>).
 
@@ -17,7 +20,7 @@ sudo pip3 install -r requirements.txt
 sudo python3 setup.py develop
 ```
 
-## Distilling CNN
+## Distilling CNNs
 
 ### CIFAR-100
 
@@ -38,7 +41,7 @@ sudo python3 setup.py develop
 
 ## Distilling ViTs
 
-Please refer to ![tiny-transformers/README.md](./tiny-transformers/README.md)
+Please refer to [tiny-transformers/README.md](./tiny-transformers/README.md)
 
 
 # Acknowledgement
