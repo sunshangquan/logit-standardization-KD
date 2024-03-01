@@ -66,7 +66,7 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 #### Results and Logs
 
-| Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|WRN-40-2 <br> WRN-40-1|WRN-40-2 <br> WRN-16-2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
+| Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn-40-2 <br> Wrn-40-1|Wrn-40-2 <br> Wrn-16-2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 73.33 | 72.98 | 73.54 | 74.92 | 70.66 | 73.08 | 70.67 |
 | KD+Ours | 76.62 | 74.36 | 74.37 | 76.11 | 71.43 | 74.17 | 71.48 | 
