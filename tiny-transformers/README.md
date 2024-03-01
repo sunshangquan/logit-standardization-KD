@@ -1,16 +1,8 @@
-# Locality Guidance for Improving Vision Transformers on Tiny Datasets (ECCV 2022)
-
-[[arXiv paper](https://arxiv.org/pdf/2207.10026.pdf)] [[ECCV paper]()]
-
-![method](method.png)
+# **Our Logit Standardization** for Locality Guidance for Improving Vision Transformers on Tiny Datasets (ECCV 2022)
 
 ## Description
 
-This is a PyTorch implementation of the paper "Locality Guidance for Improving Vision Transformers on Tiny Datasets", supporting different Transformer models (including DeiT, T2T-ViT, PiT, PVT, PVTv2, ConViT, CvT) and different classification datasets (including CIFAR-100, Oxford Flowers, Tiny ImageNet, Chaoyang).
-
-## Abstract
-
-While the Vision Transformer (VT) architecture is becoming trendy in computer vision, pure VT models perform poorly on tiny datasets. To address this issue, this paper proposes the locality guidance for improving the performance of VTs on tiny datasets. We first analyze that the local information, which is of great importance for understanding images, is hard to be learned with limited data due to the high flexibility and intrinsic globality of the self-attention mechanism in VTs. To facilitate local information, we realize the locality guidance for VTs by imitating the features of an already trained convolutional neural network (CNN), inspired by the built-in local-to-global hierarchy of CNN. Under our dual-task learning paradigm, the locality guidance provided by a lightweight CNN trained on low-resolution images is adequate to accelerate the convergence and improve the performance of VTs to a large extent. Therefore, our locality guidance approach is very simple and efficient, and can serve as a basic performance enhancement method for VTs on tiny datasets. Extensive experiments demonstrate that our method can significantly improve VTs when training from scratch on tiny datasets and is compatible with different kinds of VTs and datasets. For example, our proposed method can boost the performance of various VTs on tiny datasets (e.g., 13.07\% for DeiT, 8.98\% for T2T and 7.85\% for PVT), and enhance even stronger baseline PVTv2 by 1.86\% to 79.30\%, showing the potential of VTs on tiny datasets.
+This is from the [PyTorch implementation](<https://github.com/lkhl/tiny-transformers>) of the paper ["Locality Guidance for Improving Vision Transformers on Tiny Datasets"](<https://arxiv.org/pdf/2207.10026.pdf>), supporting different Transformer models (including DeiT, T2T-ViT, PiT, PVT, PVTv2) and the classification dataset, CIFAR-100.
 
 ## Usage
 
