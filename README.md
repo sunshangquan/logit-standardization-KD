@@ -81,7 +81,7 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 2. Teacher and student have distinct structures
 
-|Teacher <br> Student | ResNet32x4 <br> SHN-V2 | ResNet32x4 <br> Wrn-16-2 | ResNet32x4 <br> Wrn-40-2 | Wrn-40-2 <br> ResNet8x4 | Wrn-40-2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
+|Teacher <br> Student | ResNet32x4 <br> SHN-V2 | ResNet32x4 <br> Wrn-16-2 | ResNet32x4 <br> Wrn-40-2 | Wrn-40-2 <br> ResNet8x4 | Wrn_40_2 <br> MN_V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 74.45 | 74.90 | 77.70 | 73.97 | 68.36 | 67.37 | 67.35 | 
 | KD+Ours | 75.56 | 75.26 | 77.92 | 77.11 | 69.23 | 68.61 | 69.02 |
