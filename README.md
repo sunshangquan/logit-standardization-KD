@@ -64,7 +64,7 @@ sudo python setup.py develop
 
 4. For CTKD
 
-Please refer to [CTKD](./CTKD)
+Please refer to [CTKD](./CTKD) (in progress).
 
 #### Results and Logs
 
@@ -106,7 +106,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 
 ## Distilling ViTs
 
-Please refer to [tiny-transformers](./tiny-transformers)
+Please refer to [tiny-transformers](./tiny-transformers) (in progress).
 
 
 # Acknowledgement
