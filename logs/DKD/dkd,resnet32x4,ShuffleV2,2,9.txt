@@ -1,0 +1,2161 @@
+-------------------------
+epoch: 1
+lr: 0.01
+train_acc: 7.01
+train_loss: 6.04
+test_acc: 11.87
+test_acc_top5: 36.84
+test_loss: 3.70
+-------------------------
+-------------------------
+epoch: 2
+lr: 0.01
+train_acc: 17.04
+train_loss: 6.78
+test_acc: 23.73
+test_acc_top5: 54.37
+test_loss: 3.08
+-------------------------
+-------------------------
+epoch: 3
+lr: 0.01
+train_acc: 25.88
+train_loss: 7.51
+test_acc: 30.59
+test_acc_top5: 62.53
+test_loss: 2.77
+-------------------------
+-------------------------
+epoch: 4
+lr: 0.01
+train_acc: 33.76
+train_loss: 8.06
+test_acc: 37.55
+test_acc_top5: 70.13
+test_loss: 2.39
+-------------------------
+-------------------------
+epoch: 5
+lr: 0.01
+train_acc: 40.19
+train_loss: 8.52
+test_acc: 44.27
+test_acc_top5: 76.43
+test_loss: 2.09
+-------------------------
+-------------------------
+epoch: 6
+lr: 0.01
+train_acc: 45.19
+train_loss: 8.99
+test_acc: 46.64
+test_acc_top5: 78.12
+test_loss: 2.05
+-------------------------
+-------------------------
+epoch: 7
+lr: 0.01
+train_acc: 48.81
+train_loss: 9.51
+test_acc: 50.81
+test_acc_top5: 82.01
+test_loss: 1.83
+-------------------------
+-------------------------
+epoch: 8
+lr: 0.01
+train_acc: 51.73
+train_loss: 9.98
+test_acc: 46.36
+test_acc_top5: 77.49
+test_loss: 2.10
+-------------------------
+-------------------------
+epoch: 9
+lr: 0.01
+train_acc: 53.93
+train_loss: 10.48
+test_acc: 54.74
+test_acc_top5: 83.56
+test_loss: 1.72
+-------------------------
+-------------------------
+epoch: 10
+lr: 0.01
+train_acc: 55.87
+train_loss: 10.89
+test_acc: 54.69
+test_acc_top5: 82.71
+test_loss: 1.75
+-------------------------
+-------------------------
+epoch: 11
+lr: 0.01
+train_acc: 57.86
+train_loss: 11.37
+test_acc: 54.82
+test_acc_top5: 82.88
+test_loss: 1.80
+-------------------------
+-------------------------
+epoch: 12
+lr: 0.01
+train_acc: 59.14
+train_loss: 11.83
+test_acc: 56.82
+test_acc_top5: 85.33
+test_loss: 1.66
+-------------------------
+-------------------------
+epoch: 13
+lr: 0.01
+train_acc: 60.25
+train_loss: 12.31
+test_acc: 58.11
+test_acc_top5: 85.50
+test_loss: 1.65
+-------------------------
+-------------------------
+epoch: 14
+lr: 0.01
+train_acc: 61.45
+train_loss: 12.75
+test_acc: 59.10
+test_acc_top5: 85.67
+test_loss: 1.62
+-------------------------
+-------------------------
+epoch: 15
+lr: 0.01
+train_acc: 62.28
+train_loss: 13.24
+test_acc: 58.88
+test_acc_top5: 85.74
+test_loss: 1.63
+-------------------------
+-------------------------
+epoch: 16
+lr: 0.01
+train_acc: 63.34
+train_loss: 13.73
+test_acc: 59.29
+test_acc_top5: 86.00
+test_loss: 1.59
+-------------------------
+-------------------------
+epoch: 17
+lr: 0.01
+train_acc: 64.04
+train_loss: 14.18
+test_acc: 58.40
+test_acc_top5: 84.80
+test_loss: 1.68
+-------------------------
+-------------------------
+epoch: 18
+lr: 0.01
+train_acc: 64.97
+train_loss: 14.65
+test_acc: 61.63
+test_acc_top5: 86.83
+test_loss: 1.57
+-------------------------
+-------------------------
+epoch: 19
+lr: 0.01
+train_acc: 65.86
+train_loss: 15.02
+test_acc: 61.60
+test_acc_top5: 86.55
+test_loss: 1.58
+-------------------------
+-------------------------
+epoch: 20
+lr: 0.01
+train_acc: 66.10
+train_loss: 15.50
+test_acc: 60.72
+test_acc_top5: 85.94
+test_loss: 1.63
+-------------------------
+-------------------------
+epoch: 21
+lr: 0.01
+train_acc: 67.17
+train_loss: 15.14
+test_acc: 61.71
+test_acc_top5: 86.95
+test_loss: 1.59
+-------------------------
+-------------------------
+epoch: 22
+lr: 0.01
+train_acc: 68.17
+train_loss: 14.71
+test_acc: 63.26
+test_acc_top5: 88.12
+test_loss: 1.48
+-------------------------
+-------------------------
+epoch: 23
+lr: 0.01
+train_acc: 69.09
+train_loss: 14.34
+test_acc: 62.69
+test_acc_top5: 87.64
+test_loss: 1.53
+-------------------------
+-------------------------
+epoch: 24
+lr: 0.01
+train_acc: 69.48
+train_loss: 14.13
+test_acc: 64.74
+test_acc_top5: 88.50
+test_loss: 1.44
+-------------------------
+-------------------------
+epoch: 25
+lr: 0.01
+train_acc: 70.45
+train_loss: 13.80
+test_acc: 63.94
+test_acc_top5: 88.45
+test_loss: 1.44
+-------------------------
+-------------------------
+epoch: 26
+lr: 0.01
+train_acc: 70.86
+train_loss: 13.57
+test_acc: 64.27
+test_acc_top5: 88.38
+test_loss: 1.48
+-------------------------
+-------------------------
+epoch: 27
+lr: 0.01
+train_acc: 71.54
+train_loss: 13.37
+test_acc: 60.97
+test_acc_top5: 86.52
+test_loss: 1.61
+-------------------------
+-------------------------
+epoch: 28
+lr: 0.01
+train_acc: 72.00
+train_loss: 13.20
+test_acc: 61.82
+test_acc_top5: 87.19
+test_loss: 1.59
+-------------------------
+-------------------------
+epoch: 29
+lr: 0.01
+train_acc: 72.12
+train_loss: 13.06
+test_acc: 64.76
+test_acc_top5: 88.84
+test_loss: 1.46
+-------------------------
+-------------------------
+epoch: 30
+lr: 0.01
+train_acc: 72.64
+train_loss: 12.87
+test_acc: 65.35
+test_acc_top5: 88.91
+test_loss: 1.46
+-------------------------
+-------------------------
+epoch: 31
+lr: 0.01
+train_acc: 73.48
+train_loss: 12.67
+test_acc: 65.69
+test_acc_top5: 89.27
+test_loss: 1.41
+-------------------------
+-------------------------
+epoch: 32
+lr: 0.01
+train_acc: 73.50
+train_loss: 12.58
+test_acc: 66.57
+test_acc_top5: 90.09
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 33
+lr: 0.01
+train_acc: 73.82
+train_loss: 12.43
+test_acc: 67.10
+test_acc_top5: 90.37
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 34
+lr: 0.01
+train_acc: 74.22
+train_loss: 12.28
+test_acc: 66.72
+test_acc_top5: 89.49
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 35
+lr: 0.01
+train_acc: 74.41
+train_loss: 12.18
+test_acc: 66.66
+test_acc_top5: 89.41
+test_loss: 1.39
+-------------------------
+-------------------------
+epoch: 36
+lr: 0.01
+train_acc: 75.15
+train_loss: 11.99
+test_acc: 65.72
+test_acc_top5: 89.21
+test_loss: 1.42
+-------------------------
+-------------------------
+epoch: 37
+lr: 0.01
+train_acc: 75.31
+train_loss: 11.92
+test_acc: 66.71
+test_acc_top5: 89.37
+test_loss: 1.40
+-------------------------
+-------------------------
+epoch: 38
+lr: 0.01
+train_acc: 75.33
+train_loss: 11.93
+test_acc: 67.66
+test_acc_top5: 89.88
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 39
+lr: 0.01
+train_acc: 75.76
+train_loss: 11.85
+test_acc: 66.29
+test_acc_top5: 89.36
+test_loss: 1.41
+-------------------------
+-------------------------
+epoch: 40
+lr: 0.01
+train_acc: 75.89
+train_loss: 11.68
+test_acc: 66.54
+test_acc_top5: 89.68
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 41
+lr: 0.01
+train_acc: 76.00
+train_loss: 11.59
+test_acc: 65.12
+test_acc_top5: 88.14
+test_loss: 1.48
+-------------------------
+-------------------------
+epoch: 42
+lr: 0.01
+train_acc: 76.20
+train_loss: 11.54
+test_acc: 67.96
+test_acc_top5: 89.96
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 43
+lr: 0.01
+train_acc: 76.67
+train_loss: 11.42
+test_acc: 68.37
+test_acc_top5: 90.93
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 44
+lr: 0.01
+train_acc: 77.05
+train_loss: 11.29
+test_acc: 67.38
+test_acc_top5: 89.87
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 45
+lr: 0.01
+train_acc: 76.70
+train_loss: 11.38
+test_acc: 65.41
+test_acc_top5: 89.07
+test_loss: 1.47
+-------------------------
+-------------------------
+epoch: 46
+lr: 0.01
+train_acc: 77.14
+train_loss: 11.25
+test_acc: 67.84
+test_acc_top5: 89.82
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 47
+lr: 0.01
+train_acc: 77.15
+train_loss: 11.22
+test_acc: 67.96
+test_acc_top5: 90.07
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 48
+lr: 0.01
+train_acc: 77.63
+train_loss: 11.04
+test_acc: 67.74
+test_acc_top5: 89.42
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 49
+lr: 0.01
+train_acc: 77.73
+train_loss: 11.07
+test_acc: 67.98
+test_acc_top5: 90.34
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 50
+lr: 0.01
+train_acc: 77.70
+train_loss: 11.03
+test_acc: 67.64
+test_acc_top5: 89.99
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 51
+lr: 0.01
+train_acc: 77.86
+train_loss: 11.00
+test_acc: 66.07
+test_acc_top5: 89.05
+test_loss: 1.43
+-------------------------
+-------------------------
+epoch: 52
+lr: 0.01
+train_acc: 77.98
+train_loss: 10.97
+test_acc: 67.78
+test_acc_top5: 90.31
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 53
+lr: 0.01
+train_acc: 78.18
+train_loss: 10.90
+test_acc: 68.45
+test_acc_top5: 90.56
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 54
+lr: 0.01
+train_acc: 78.41
+train_loss: 10.78
+test_acc: 65.38
+test_acc_top5: 88.93
+test_loss: 1.47
+-------------------------
+-------------------------
+epoch: 55
+lr: 0.01
+train_acc: 78.54
+train_loss: 10.72
+test_acc: 69.28
+test_acc_top5: 90.55
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 56
+lr: 0.01
+train_acc: 78.39
+train_loss: 10.70
+test_acc: 67.53
+test_acc_top5: 90.05
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 57
+lr: 0.01
+train_acc: 78.75
+train_loss: 10.66
+test_acc: 67.84
+test_acc_top5: 89.86
+test_loss: 1.39
+-------------------------
+-------------------------
+epoch: 58
+lr: 0.01
+train_acc: 78.79
+train_loss: 10.68
+test_acc: 68.23
+test_acc_top5: 89.92
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 59
+lr: 0.01
+train_acc: 78.80
+train_loss: 10.63
+test_acc: 68.31
+test_acc_top5: 89.71
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 60
+lr: 0.01
+train_acc: 79.03
+train_loss: 10.60
+test_acc: 67.62
+test_acc_top5: 89.85
+test_loss: 1.39
+-------------------------
+-------------------------
+epoch: 61
+lr: 0.01
+train_acc: 79.18
+train_loss: 10.49
+test_acc: 66.69
+test_acc_top5: 89.12
+test_loss: 1.44
+-------------------------
+-------------------------
+epoch: 62
+lr: 0.01
+train_acc: 79.41
+train_loss: 10.47
+test_acc: 67.45
+test_acc_top5: 89.79
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 63
+lr: 0.01
+train_acc: 79.37
+train_loss: 10.42
+test_acc: 68.85
+test_acc_top5: 90.99
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 64
+lr: 0.01
+train_acc: 79.21
+train_loss: 10.50
+test_acc: 68.13
+test_acc_top5: 90.26
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 65
+lr: 0.01
+train_acc: 79.41
+train_loss: 10.44
+test_acc: 68.96
+test_acc_top5: 90.80
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 66
+lr: 0.01
+train_acc: 79.53
+train_loss: 10.39
+test_acc: 69.66
+test_acc_top5: 90.86
+test_loss: 1.27
+-------------------------
+-------------------------
+epoch: 67
+lr: 0.01
+train_acc: 79.57
+train_loss: 10.38
+test_acc: 68.48
+test_acc_top5: 89.95
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 68
+lr: 0.01
+train_acc: 79.72
+train_loss: 10.37
+test_acc: 67.99
+test_acc_top5: 90.21
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 69
+lr: 0.01
+train_acc: 79.73
+train_loss: 10.37
+test_acc: 68.00
+test_acc_top5: 89.97
+test_loss: 1.39
+-------------------------
+-------------------------
+epoch: 70
+lr: 0.01
+train_acc: 80.05
+train_loss: 10.25
+test_acc: 68.83
+test_acc_top5: 90.53
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 71
+lr: 0.01
+train_acc: 79.79
+train_loss: 10.32
+test_acc: 68.47
+test_acc_top5: 90.24
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 72
+lr: 0.01
+train_acc: 79.94
+train_loss: 10.25
+test_acc: 68.48
+test_acc_top5: 90.82
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 73
+lr: 0.01
+train_acc: 80.15
+train_loss: 10.17
+test_acc: 68.03
+test_acc_top5: 89.86
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 74
+lr: 0.01
+train_acc: 79.84
+train_loss: 10.23
+test_acc: 66.09
+test_acc_top5: 88.83
+test_loss: 1.47
+-------------------------
+-------------------------
+epoch: 75
+lr: 0.01
+train_acc: 80.08
+train_loss: 10.19
+test_acc: 68.45
+test_acc_top5: 90.22
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 76
+lr: 0.01
+train_acc: 80.25
+train_loss: 10.13
+test_acc: 68.38
+test_acc_top5: 90.00
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 77
+lr: 0.01
+train_acc: 80.21
+train_loss: 10.11
+test_acc: 68.93
+test_acc_top5: 90.34
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 78
+lr: 0.01
+train_acc: 80.40
+train_loss: 10.07
+test_acc: 69.41
+test_acc_top5: 90.88
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 79
+lr: 0.01
+train_acc: 80.44
+train_loss: 10.09
+test_acc: 69.12
+test_acc_top5: 90.74
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 80
+lr: 0.01
+train_acc: 80.57
+train_loss: 10.05
+test_acc: 68.59
+test_acc_top5: 90.36
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 81
+lr: 0.01
+train_acc: 80.29
+train_loss: 10.16
+test_acc: 68.61
+test_acc_top5: 90.35
+test_loss: 1.37
+-------------------------
+-------------------------
+epoch: 82
+lr: 0.01
+train_acc: 80.67
+train_loss: 10.04
+test_acc: 68.91
+test_acc_top5: 90.47
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 83
+lr: 0.01
+train_acc: 80.66
+train_loss: 10.02
+test_acc: 69.55
+test_acc_top5: 90.56
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 84
+lr: 0.01
+train_acc: 80.75
+train_loss: 9.99
+test_acc: 67.31
+test_acc_top5: 89.93
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 85
+lr: 0.01
+train_acc: 80.61
+train_loss: 9.99
+test_acc: 69.34
+test_acc_top5: 90.67
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 86
+lr: 0.01
+train_acc: 80.94
+train_loss: 10.00
+test_acc: 69.53
+test_acc_top5: 91.08
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 87
+lr: 0.01
+train_acc: 80.82
+train_loss: 9.93
+test_acc: 69.28
+test_acc_top5: 91.06
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 88
+lr: 0.01
+train_acc: 80.76
+train_loss: 9.97
+test_acc: 68.95
+test_acc_top5: 90.61
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 89
+lr: 0.01
+train_acc: 81.19
+train_loss: 9.87
+test_acc: 69.44
+test_acc_top5: 90.58
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 90
+lr: 0.01
+train_acc: 81.21
+train_loss: 9.87
+test_acc: 69.33
+test_acc_top5: 90.44
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 91
+lr: 0.01
+train_acc: 80.82
+train_loss: 9.92
+test_acc: 69.04
+test_acc_top5: 90.44
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 92
+lr: 0.01
+train_acc: 81.07
+train_loss: 9.90
+test_acc: 68.98
+test_acc_top5: 90.73
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 93
+lr: 0.01
+train_acc: 80.89
+train_loss: 9.93
+test_acc: 67.61
+test_acc_top5: 89.68
+test_loss: 1.43
+-------------------------
+-------------------------
+epoch: 94
+lr: 0.01
+train_acc: 81.15
+train_loss: 9.90
+test_acc: 69.41
+test_acc_top5: 90.56
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 95
+lr: 0.01
+train_acc: 81.12
+train_loss: 9.89
+test_acc: 68.99
+test_acc_top5: 90.58
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 96
+lr: 0.01
+train_acc: 81.24
+train_loss: 9.84
+test_acc: 68.30
+test_acc_top5: 90.37
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 97
+lr: 0.01
+train_acc: 81.16
+train_loss: 9.84
+test_acc: 69.35
+test_acc_top5: 90.84
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 98
+lr: 0.01
+train_acc: 81.22
+train_loss: 9.80
+test_acc: 68.93
+test_acc_top5: 90.64
+test_loss: 1.38
+-------------------------
+-------------------------
+epoch: 99
+lr: 0.01
+train_acc: 81.65
+train_loss: 9.72
+test_acc: 69.72
+test_acc_top5: 90.75
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 100
+lr: 0.01
+train_acc: 81.27
+train_loss: 9.83
+test_acc: 69.11
+test_acc_top5: 90.84
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 101
+lr: 0.01
+train_acc: 81.50
+train_loss: 9.81
+test_acc: 69.58
+test_acc_top5: 91.06
+test_loss: 1.28
+-------------------------
+-------------------------
+epoch: 102
+lr: 0.01
+train_acc: 81.76
+train_loss: 9.68
+test_acc: 70.23
+test_acc_top5: 90.55
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 103
+lr: 0.01
+train_acc: 81.56
+train_loss: 9.73
+test_acc: 69.38
+test_acc_top5: 90.36
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 104
+lr: 0.01
+train_acc: 81.60
+train_loss: 9.70
+test_acc: 70.22
+test_acc_top5: 91.05
+test_loss: 1.28
+-------------------------
+-------------------------
+epoch: 105
+lr: 0.01
+train_acc: 81.44
+train_loss: 9.65
+test_acc: 69.89
+test_acc_top5: 91.01
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 106
+lr: 0.01
+train_acc: 81.84
+train_loss: 9.65
+test_acc: 70.18
+test_acc_top5: 90.89
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 107
+lr: 0.01
+train_acc: 81.84
+train_loss: 9.63
+test_acc: 69.83
+test_acc_top5: 90.72
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 108
+lr: 0.01
+train_acc: 81.79
+train_loss: 9.66
+test_acc: 68.90
+test_acc_top5: 90.57
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 109
+lr: 0.01
+train_acc: 81.86
+train_loss: 9.59
+test_acc: 67.42
+test_acc_top5: 89.39
+test_loss: 1.45
+-------------------------
+-------------------------
+epoch: 110
+lr: 0.01
+train_acc: 81.51
+train_loss: 9.71
+test_acc: 69.63
+test_acc_top5: 91.50
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 111
+lr: 0.01
+train_acc: 81.88
+train_loss: 9.62
+test_acc: 67.39
+test_acc_top5: 90.11
+test_loss: 1.42
+-------------------------
+-------------------------
+epoch: 112
+lr: 0.01
+train_acc: 81.72
+train_loss: 9.64
+test_acc: 69.76
+test_acc_top5: 90.90
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 113
+lr: 0.01
+train_acc: 81.65
+train_loss: 9.65
+test_acc: 70.06
+test_acc_top5: 91.47
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 114
+lr: 0.01
+train_acc: 82.09
+train_loss: 9.58
+test_acc: 67.79
+test_acc_top5: 90.14
+test_loss: 1.43
+-------------------------
+-------------------------
+epoch: 115
+lr: 0.01
+train_acc: 82.13
+train_loss: 9.55
+test_acc: 68.16
+test_acc_top5: 90.28
+test_loss: 1.39
+-------------------------
+-------------------------
+epoch: 116
+lr: 0.01
+train_acc: 81.72
+train_loss: 9.65
+test_acc: 69.46
+test_acc_top5: 91.06
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 117
+lr: 0.01
+train_acc: 81.55
+train_loss: 9.69
+test_acc: 69.51
+test_acc_top5: 90.58
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 118
+lr: 0.01
+train_acc: 82.12
+train_loss: 9.60
+test_acc: 69.96
+test_acc_top5: 91.43
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 119
+lr: 0.01
+train_acc: 81.66
+train_loss: 9.67
+test_acc: 68.74
+test_acc_top5: 90.27
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 120
+lr: 0.01
+train_acc: 82.39
+train_loss: 9.44
+test_acc: 68.94
+test_acc_top5: 90.17
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 121
+lr: 0.01
+train_acc: 82.07
+train_loss: 9.50
+test_acc: 69.70
+test_acc_top5: 90.30
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 122
+lr: 0.01
+train_acc: 82.22
+train_loss: 9.47
+test_acc: 70.48
+test_acc_top5: 91.21
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 123
+lr: 0.01
+train_acc: 82.16
+train_loss: 9.52
+test_acc: 69.82
+test_acc_top5: 91.02
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 124
+lr: 0.01
+train_acc: 82.51
+train_loss: 9.40
+test_acc: 69.51
+test_acc_top5: 91.14
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 125
+lr: 0.01
+train_acc: 82.07
+train_loss: 9.51
+test_acc: 69.93
+test_acc_top5: 91.17
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 126
+lr: 0.01
+train_acc: 82.07
+train_loss: 9.55
+test_acc: 68.01
+test_acc_top5: 89.82
+test_loss: 1.41
+-------------------------
+-------------------------
+epoch: 127
+lr: 0.01
+train_acc: 82.00
+train_loss: 9.58
+test_acc: 69.66
+test_acc_top5: 91.00
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 128
+lr: 0.01
+train_acc: 81.95
+train_loss: 9.53
+test_acc: 69.75
+test_acc_top5: 90.20
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 129
+lr: 0.01
+train_acc: 82.20
+train_loss: 9.47
+test_acc: 70.13
+test_acc_top5: 90.93
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 130
+lr: 0.01
+train_acc: 82.31
+train_loss: 9.50
+test_acc: 69.35
+test_acc_top5: 91.17
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 131
+lr: 0.01
+train_acc: 81.92
+train_loss: 9.58
+test_acc: 70.48
+test_acc_top5: 91.19
+test_loss: 1.28
+-------------------------
+-------------------------
+epoch: 132
+lr: 0.01
+train_acc: 82.27
+train_loss: 9.47
+test_acc: 69.58
+test_acc_top5: 90.88
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 133
+lr: 0.01
+train_acc: 82.34
+train_loss: 9.48
+test_acc: 70.28
+test_acc_top5: 91.53
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 134
+lr: 0.01
+train_acc: 82.55
+train_loss: 9.42
+test_acc: 70.02
+test_acc_top5: 91.34
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 135
+lr: 0.01
+train_acc: 82.44
+train_loss: 9.40
+test_acc: 68.18
+test_acc_top5: 90.46
+test_loss: 1.40
+-------------------------
+-------------------------
+epoch: 136
+lr: 0.01
+train_acc: 82.09
+train_loss: 9.48
+test_acc: 70.68
+test_acc_top5: 91.60
+test_loss: 1.27
+-------------------------
+-------------------------
+epoch: 137
+lr: 0.01
+train_acc: 82.34
+train_loss: 9.40
+test_acc: 69.00
+test_acc_top5: 91.28
+test_loss: 1.34
+-------------------------
+-------------------------
+epoch: 138
+lr: 0.01
+train_acc: 82.77
+train_loss: 9.30
+test_acc: 70.06
+test_acc_top5: 91.34
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 139
+lr: 0.01
+train_acc: 82.49
+train_loss: 9.38
+test_acc: 66.51
+test_acc_top5: 89.14
+test_loss: 1.43
+-------------------------
+-------------------------
+epoch: 140
+lr: 0.01
+train_acc: 82.48
+train_loss: 9.41
+test_acc: 70.20
+test_acc_top5: 91.37
+test_loss: 1.27
+-------------------------
+-------------------------
+epoch: 141
+lr: 0.01
+train_acc: 82.28
+train_loss: 9.44
+test_acc: 68.63
+test_acc_top5: 90.27
+test_loss: 1.36
+-------------------------
+-------------------------
+epoch: 142
+lr: 0.01
+train_acc: 82.54
+train_loss: 9.43
+test_acc: 69.48
+test_acc_top5: 90.63
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 143
+lr: 0.01
+train_acc: 82.52
+train_loss: 9.41
+test_acc: 69.66
+test_acc_top5: 91.12
+test_loss: 1.35
+-------------------------
+-------------------------
+epoch: 144
+lr: 0.01
+train_acc: 82.60
+train_loss: 9.33
+test_acc: 69.74
+test_acc_top5: 90.81
+test_loss: 1.32
+-------------------------
+-------------------------
+epoch: 145
+lr: 0.01
+train_acc: 82.48
+train_loss: 9.40
+test_acc: 69.14
+test_acc_top5: 90.69
+test_loss: 1.31
+-------------------------
+-------------------------
+epoch: 146
+lr: 0.01
+train_acc: 82.54
+train_loss: 9.39
+test_acc: 69.99
+test_acc_top5: 91.01
+test_loss: 1.30
+-------------------------
+-------------------------
+epoch: 147
+lr: 0.01
+train_acc: 82.50
+train_loss: 9.38
+test_acc: 69.68
+test_acc_top5: 90.63
+test_loss: 1.33
+-------------------------
+-------------------------
+epoch: 148
+lr: 0.01
+train_acc: 82.49
+train_loss: 9.39
+test_acc: 66.58
+test_acc_top5: 89.38
+test_loss: 1.48
+-------------------------
+-------------------------
+epoch: 149
+lr: 0.01
+train_acc: 82.51
+train_loss: 9.32
+test_acc: 69.85
+test_acc_top5: 91.26
+test_loss: 1.29
+-------------------------
+-------------------------
+epoch: 150
+lr: 0.01
+train_acc: 82.76
+train_loss: 9.31
+test_acc: 70.68
+test_acc_top5: 91.70
+test_loss: 1.25
+-------------------------
+-------------------------
+epoch: 151
+lr: 0.00
+train_acc: 87.98
+train_loss: 7.18
+test_acc: 75.25
+test_acc_top5: 93.44
+test_loss: 1.07
+-------------------------
+-------------------------
+epoch: 152
+lr: 0.00
+train_acc: 90.09
+train_loss: 6.36
+test_acc: 75.98
+test_acc_top5: 93.73
+test_loss: 1.04
+-------------------------
+-------------------------
+epoch: 153
+lr: 0.00
+train_acc: 90.84
+train_loss: 6.06
+test_acc: 76.18
+test_acc_top5: 93.91
+test_loss: 1.04
+-------------------------
+-------------------------
+epoch: 154
+lr: 0.00
+train_acc: 91.42
+train_loss: 5.89
+test_acc: 76.51
+test_acc_top5: 93.95
+test_loss: 1.03
+-------------------------
+-------------------------
+epoch: 155
+lr: 0.00
+train_acc: 91.77
+train_loss: 5.73
+test_acc: 76.50
+test_acc_top5: 93.76
+test_loss: 1.03
+-------------------------
+-------------------------
+epoch: 156
+lr: 0.00
+train_acc: 92.34
+train_loss: 5.59
+test_acc: 76.45
+test_acc_top5: 93.93
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 157
+lr: 0.00
+train_acc: 92.54
+train_loss: 5.46
+test_acc: 76.66
+test_acc_top5: 94.08
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 158
+lr: 0.00
+train_acc: 92.89
+train_loss: 5.38
+test_acc: 76.55
+test_acc_top5: 94.06
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 159
+lr: 0.00
+train_acc: 93.24
+train_loss: 5.29
+test_acc: 76.69
+test_acc_top5: 93.99
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 160
+lr: 0.00
+train_acc: 93.39
+train_loss: 5.24
+test_acc: 76.64
+test_acc_top5: 94.07
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 161
+lr: 0.00
+train_acc: 93.49
+train_loss: 5.20
+test_acc: 76.67
+test_acc_top5: 94.07
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 162
+lr: 0.00
+train_acc: 93.82
+train_loss: 5.13
+test_acc: 76.73
+test_acc_top5: 94.11
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 163
+lr: 0.00
+train_acc: 93.93
+train_loss: 5.08
+test_acc: 76.55
+test_acc_top5: 93.84
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 164
+lr: 0.00
+train_acc: 94.07
+train_loss: 5.01
+test_acc: 76.42
+test_acc_top5: 94.06
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 165
+lr: 0.00
+train_acc: 94.27
+train_loss: 4.96
+test_acc: 76.78
+test_acc_top5: 93.85
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 166
+lr: 0.00
+train_acc: 94.35
+train_loss: 4.92
+test_acc: 76.77
+test_acc_top5: 94.01
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 167
+lr: 0.00
+train_acc: 94.60
+train_loss: 4.87
+test_acc: 76.89
+test_acc_top5: 94.00
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 168
+lr: 0.00
+train_acc: 94.76
+train_loss: 4.83
+test_acc: 76.99
+test_acc_top5: 94.06
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 169
+lr: 0.00
+train_acc: 94.74
+train_loss: 4.83
+test_acc: 76.81
+test_acc_top5: 93.98
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 170
+lr: 0.00
+train_acc: 94.99
+train_loss: 4.74
+test_acc: 76.88
+test_acc_top5: 93.91
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 171
+lr: 0.00
+train_acc: 95.04
+train_loss: 4.73
+test_acc: 76.77
+test_acc_top5: 93.91
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 172
+lr: 0.00
+train_acc: 95.32
+train_loss: 4.70
+test_acc: 76.61
+test_acc_top5: 93.83
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 173
+lr: 0.00
+train_acc: 95.21
+train_loss: 4.68
+test_acc: 76.76
+test_acc_top5: 94.11
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 174
+lr: 0.00
+train_acc: 95.43
+train_loss: 4.64
+test_acc: 77.10
+test_acc_top5: 94.02
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 175
+lr: 0.00
+train_acc: 95.46
+train_loss: 4.62
+test_acc: 76.65
+test_acc_top5: 93.98
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 176
+lr: 0.00
+train_acc: 95.72
+train_loss: 4.58
+test_acc: 76.70
+test_acc_top5: 93.94
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 177
+lr: 0.00
+train_acc: 95.62
+train_loss: 4.56
+test_acc: 77.12
+test_acc_top5: 93.91
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 178
+lr: 0.00
+train_acc: 95.76
+train_loss: 4.53
+test_acc: 77.16
+test_acc_top5: 93.96
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 179
+lr: 0.00
+train_acc: 95.88
+train_loss: 4.51
+test_acc: 76.51
+test_acc_top5: 93.92
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 180
+lr: 0.00
+train_acc: 95.82
+train_loss: 4.49
+test_acc: 76.89
+test_acc_top5: 93.86
+test_loss: 1.02
+-------------------------
+-------------------------
+epoch: 181
+lr: 0.00
+train_acc: 96.14
+train_loss: 4.38
+test_acc: 77.22
+test_acc_top5: 94.13
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 182
+lr: 0.00
+train_acc: 96.28
+train_loss: 4.33
+test_acc: 76.85
+test_acc_top5: 93.93
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 183
+lr: 0.00
+train_acc: 96.30
+train_loss: 4.32
+test_acc: 77.09
+test_acc_top5: 93.96
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 184
+lr: 0.00
+train_acc: 96.46
+train_loss: 4.31
+test_acc: 76.90
+test_acc_top5: 93.99
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 185
+lr: 0.00
+train_acc: 96.33
+train_loss: 4.32
+test_acc: 77.04
+test_acc_top5: 94.04
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 186
+lr: 0.00
+train_acc: 96.50
+train_loss: 4.30
+test_acc: 77.33
+test_acc_top5: 94.04
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 187
+lr: 0.00
+train_acc: 96.47
+train_loss: 4.27
+test_acc: 77.21
+test_acc_top5: 93.90
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 188
+lr: 0.00
+train_acc: 96.39
+train_loss: 4.29
+test_acc: 76.99
+test_acc_top5: 94.04
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 189
+lr: 0.00
+train_acc: 96.50
+train_loss: 4.27
+test_acc: 77.24
+test_acc_top5: 93.94
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 190
+lr: 0.00
+train_acc: 96.47
+train_loss: 4.27
+test_acc: 77.15
+test_acc_top5: 94.08
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 191
+lr: 0.00
+train_acc: 96.48
+train_loss: 4.26
+test_acc: 77.13
+test_acc_top5: 94.04
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 192
+lr: 0.00
+train_acc: 96.58
+train_loss: 4.26
+test_acc: 77.11
+test_acc_top5: 94.05
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 193
+lr: 0.00
+train_acc: 96.53
+train_loss: 4.26
+test_acc: 77.00
+test_acc_top5: 93.95
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 194
+lr: 0.00
+train_acc: 96.58
+train_loss: 4.24
+test_acc: 77.08
+test_acc_top5: 93.93
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 195
+lr: 0.00
+train_acc: 96.53
+train_loss: 4.24
+test_acc: 77.04
+test_acc_top5: 93.92
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 196
+lr: 0.00
+train_acc: 96.53
+train_loss: 4.24
+test_acc: 77.33
+test_acc_top5: 94.09
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 197
+lr: 0.00
+train_acc: 96.61
+train_loss: 4.23
+test_acc: 77.34
+test_acc_top5: 94.03
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 198
+lr: 0.00
+train_acc: 96.63
+train_loss: 4.23
+test_acc: 77.11
+test_acc_top5: 93.93
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 199
+lr: 0.00
+train_acc: 96.67
+train_loss: 4.23
+test_acc: 77.08
+test_acc_top5: 93.91
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 200
+lr: 0.00
+train_acc: 96.59
+train_loss: 4.22
+test_acc: 77.01
+test_acc_top5: 94.03
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 201
+lr: 0.00
+train_acc: 96.57
+train_loss: 4.19
+test_acc: 77.45
+test_acc_top5: 93.99
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 202
+lr: 0.00
+train_acc: 96.71
+train_loss: 4.21
+test_acc: 77.10
+test_acc_top5: 94.01
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 203
+lr: 0.00
+train_acc: 96.61
+train_loss: 4.22
+test_acc: 77.25
+test_acc_top5: 93.93
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 204
+lr: 0.00
+train_acc: 96.77
+train_loss: 4.21
+test_acc: 76.91
+test_acc_top5: 94.02
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 205
+lr: 0.00
+train_acc: 96.72
+train_loss: 4.21
+test_acc: 77.14
+test_acc_top5: 93.85
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 206
+lr: 0.00
+train_acc: 96.54
+train_loss: 4.22
+test_acc: 77.05
+test_acc_top5: 93.83
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 207
+lr: 0.00
+train_acc: 96.77
+train_loss: 4.19
+test_acc: 76.91
+test_acc_top5: 93.92
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 208
+lr: 0.00
+train_acc: 96.75
+train_loss: 4.17
+test_acc: 76.91
+test_acc_top5: 94.06
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 209
+lr: 0.00
+train_acc: 96.71
+train_loss: 4.17
+test_acc: 76.99
+test_acc_top5: 93.95
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 210
+lr: 0.00
+train_acc: 96.71
+train_loss: 4.19
+test_acc: 76.96
+test_acc_top5: 93.87
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 211
+lr: 0.00
+train_acc: 96.74
+train_loss: 4.16
+test_acc: 77.18
+test_acc_top5: 93.95
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 212
+lr: 0.00
+train_acc: 96.77
+train_loss: 4.16
+test_acc: 77.07
+test_acc_top5: 94.03
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 213
+lr: 0.00
+train_acc: 96.71
+train_loss: 4.18
+test_acc: 77.20
+test_acc_top5: 94.03
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 214
+lr: 0.00
+train_acc: 96.81
+train_loss: 4.18
+test_acc: 76.99
+test_acc_top5: 93.89
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 215
+lr: 0.00
+train_acc: 96.79
+train_loss: 4.17
+test_acc: 76.94
+test_acc_top5: 93.96
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 216
+lr: 0.00
+train_acc: 96.81
+train_loss: 4.17
+test_acc: 76.81
+test_acc_top5: 93.87
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 217
+lr: 0.00
+train_acc: 96.79
+train_loss: 4.17
+test_acc: 77.15
+test_acc_top5: 93.99
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 218
+lr: 0.00
+train_acc: 96.68
+train_loss: 4.17
+test_acc: 77.03
+test_acc_top5: 94.01
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 219
+lr: 0.00
+train_acc: 96.74
+train_loss: 4.18
+test_acc: 77.21
+test_acc_top5: 94.07
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 220
+lr: 0.00
+train_acc: 96.76
+train_loss: 4.17
+test_acc: 76.91
+test_acc_top5: 93.98
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 221
+lr: 0.00
+train_acc: 96.82
+train_loss: 4.17
+test_acc: 77.05
+test_acc_top5: 93.86
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 222
+lr: 0.00
+train_acc: 96.79
+train_loss: 4.19
+test_acc: 77.24
+test_acc_top5: 93.94
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 223
+lr: 0.00
+train_acc: 96.74
+train_loss: 4.18
+test_acc: 77.03
+test_acc_top5: 93.87
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 224
+lr: 0.00
+train_acc: 96.90
+train_loss: 4.15
+test_acc: 76.95
+test_acc_top5: 93.89
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 225
+lr: 0.00
+train_acc: 96.78
+train_loss: 4.17
+test_acc: 77.20
+test_acc_top5: 93.94
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 226
+lr: 0.00
+train_acc: 96.79
+train_loss: 4.16
+test_acc: 76.96
+test_acc_top5: 94.08
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 227
+lr: 0.00
+train_acc: 96.83
+train_loss: 4.16
+test_acc: 77.23
+test_acc_top5: 93.96
+test_loss: 1.00
+-------------------------
+-------------------------
+epoch: 228
+lr: 0.00
+train_acc: 96.79
+train_loss: 4.15
+test_acc: 77.23
+test_acc_top5: 94.06
+test_loss: 1.00
+-------------------------
+-------------------------
+epoch: 229
+lr: 0.00
+train_acc: 96.80
+train_loss: 4.20
+test_acc: 77.16
+test_acc_top5: 93.83
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 230
+lr: 0.00
+train_acc: 96.80
+train_loss: 4.15
+test_acc: 76.98
+test_acc_top5: 93.96
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 231
+lr: 0.00
+train_acc: 96.72
+train_loss: 4.17
+test_acc: 76.93
+test_acc_top5: 93.94
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 232
+lr: 0.00
+train_acc: 96.71
+train_loss: 4.18
+test_acc: 77.02
+test_acc_top5: 94.06
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 233
+lr: 0.00
+train_acc: 96.72
+train_loss: 4.16
+test_acc: 77.00
+test_acc_top5: 94.09
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 234
+lr: 0.00
+train_acc: 96.76
+train_loss: 4.17
+test_acc: 76.87
+test_acc_top5: 93.80
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 235
+lr: 0.00
+train_acc: 96.73
+train_loss: 4.19
+test_acc: 77.06
+test_acc_top5: 94.02
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 236
+lr: 0.00
+train_acc: 96.69
+train_loss: 4.18
+test_acc: 77.02
+test_acc_top5: 93.90
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 237
+lr: 0.00
+train_acc: 96.73
+train_loss: 4.16
+test_acc: 77.20
+test_acc_top5: 93.94
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 238
+lr: 0.00
+train_acc: 96.72
+train_loss: 4.15
+test_acc: 77.10
+test_acc_top5: 93.95
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 239
+lr: 0.00
+train_acc: 96.82
+train_loss: 4.14
+test_acc: 77.18
+test_acc_top5: 94.01
+test_loss: 1.01
+-------------------------
+-------------------------
+epoch: 240
+lr: 0.00
+train_acc: 96.74
+train_loss: 4.19
+test_acc: 76.92
+test_acc_top5: 93.97
+test_loss: 1.01
+-------------------------
+best_acc	77.45

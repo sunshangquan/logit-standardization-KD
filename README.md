@@ -1,7 +1,7 @@
 # Code release for Logit Standardization in Knowledge Distillation (CVPR 2024).
 
 
-<img src=.github/1_1-1.png width=40% />  |  <img src=.github/2_2-1.png width=40% />
+<img src=.github/1_1-1.png width=50% />  |  <img src=.github/2_2-1.png width=50% />
 :-------------------------:|:-------------------------:
 Vanilla KD             |  KD w/ our logit standardization
 
@@ -68,7 +68,7 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 #### Results and Logs
 
-We put the training logs in `logs` and hyper-linked below. The name of each log file is formated with `KD_TYPE,TEACHER,STUDENT,BASE_TEMPERATURE,KD_WEIGHT.txt`. Due to average operation and randomness, there may be slight difference between the reported results and the logged results. 
+We put the training logs in `./logs` and hyper-linked below. The name of each log file is formated with `KD_TYPE,TEACHER,STUDENT,BASE_TEMPERATURE,KD_WEIGHT.txt`. Due to average operation and randomness, there may be slight differences between the reported results and the logged results. 
 
 1. Teacher and student have identical structures
 
@@ -88,11 +88,11 @@ We put the training logs in `logs` and hyper-linked below. The name of each log 
 |Teacher <br> Student | <font size=1>ResNet32x4 <br> SHN-V2</font> | ResNet32x4 <br> Wrn_16_2 | ResNet32x4 <br> Wrn_40_2 | Wrn_40_2 <br> ResNet8x4 | Wrn_40_2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
 |:-------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 74.45 | 74.90 | 77.70 | 73.97 | 68.36 | 67.37 | 67.35 | 
-| KD+**Ours** | 75.56 | 75.26 | 77.92 | 77.11 | 69.23 | 68.61 | 69.02 |
+| KD+**Ours** | [75.56](<logs/KD/kd,resnet32x4,ShuffleV2,2,9.txt>) | 75.26 | 77.92 | 77.11 | 69.23 | 68.61 | 69.02 |
 | CTKD | 75.37 | 74.57 | 77.66 | 74.61 | 68.34 | 68.50 | 68.67 | 
 | CTKD+**Ours** | 76.18 | 75.16 | 77.99 | 77.03 | 69.53 | 68.98 | 69.36
 | DKD | 77.07 | 75.70 | 78.46 | 75.56 | 69.28 | 69.71 | 70.35 | 
-| DKD+**Ours** | 77.37 | 76.19 | 78.95 | 76.75 | 70.01 | 69.98 | 70.45 |
+| DKD+**Ours** | [77.37](<logs/DKD/dkd,resnet32x4,ShuffleV2,2,9.txt>) | 76.19 | 78.95 | 76.75 | 70.01 | 69.98 | 70.45 |
 | MLKD | 78.44 | 76.52 | 79.26 | 77.33 | 70.78 | 70.57 | 71.04 | 
 | MLKD+**Ours** | **78.76** | [**77.53**](<logs/MLKD/mlkd,resnet32x4,wrn_16_2,2,9.txt>) | [**79.66**](<logs/MLKD/mlkd,resnet32x4,wrn_40_2,2,9.txt>) | **77.68** | **71.61** | **70.94** | [**71.19**](<logs/MLKD/mlkd,res50,mv2,2,9.txt>) |
 
