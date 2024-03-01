@@ -13,7 +13,7 @@ Knowledge distillation involves transferring soft labels from a teacher to a stu
 
 The code is built on [mdistiller](<https://github.com/megvii-research/mdistiller>), [Multi-Level-Logit-Distillation](<https://github.com/Jin-Ying/Multi-Level-Logit-Distillation>), [CTKD](<https://github.com/zhengli97/CTKD>) and [tiny-transformers](<https://github.com/lkhl/tiny-transformers>).
 
-The repository is still in progress.
+**The repository is still in progress.**
 
 ### Installation
 
