@@ -5,8 +5,8 @@
 <img title="KD w/ our logit standardization" src=".github/2_2-1.png" width="20%" >
 </center>
 
-![Vanilla KD](.github/1_1-1.png =100){width=25%}
-![KD w/ our logit standardization](.github/2_2-1.png =100){width=25%}
+![Vanilla KD](.github/1_1-1.png){width=25%}
+![KD w/ our logit standardization](.github/2_2-1.png){width=25%}
 
 ## Abstract
 
