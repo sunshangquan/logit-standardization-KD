@@ -114,3 +114,16 @@ Sincere gratitude to the contributors of mdistiller, CTKD, Multi-Level-Logit-Dis
 
 # Contact
 [Shangquan Sun](https://sunsean21.github.io/): shangquansun@gmail.com
+
+# Citation
+
+If you find that this project helps your research, please consider citing some of the following paper:
+
+```BibTeX
+@inproceedings{Dong2023EMQ,
+    title={Logit Standardization in Knowledge Distillation},
+    author={Shangquan Sun, Wenqi Ren, Jingzhi Li, Rui Wang, Xiaochun Cao},
+    booktitle={Computer Vision and Pattern Recognition (CVPR)},
+    year={2024}
+}
+```
