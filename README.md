@@ -37,24 +37,27 @@ sudo python setup.py develop
 1. For KD
 
   ```bash
-  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml # KD
-
-  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 # KD+Ours
+  # KD
+  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml
+  # KD+Ours
+  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 
 2. For DKD
 
   ```bash
-  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml # KD
-
-  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 # KD+Ours
+  # DKD
+  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml 
+  # DKD+Ours
+  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 3. For MLKD
 
   ```bash
-  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml # KD
-
-  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 # KD+Ours
+  # MLKD
+  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml
+  # MLKD+Ours
+  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 
 4. For CTKD
