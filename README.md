@@ -70,7 +70,7 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 1. Teacher and student have identical structures
 
-| Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn40-2 <br> Wrn40-1|Wrn40-2 <br> Wrn16-2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
+| Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn_40_2 <br> Wrn_40_1|Wrn_40_2 <br> Wrn_16_2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 73.33 | 72.98 | 73.54 | 74.92 | 70.66 | 73.08 | 70.67 |
 | KD+**Ours** | [76.62](<./logs/KD/kd,resnet32x4,resnet8x4,2,9.txt>) | 74.36 | 74.37 | 76.11 | 71.43 | 74.17 | 71.48 | 
@@ -83,7 +83,7 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 2. Teacher and student have distinct structures
 
-|Teacher <br> Student | <font size=1>ResNet32x4 <br> SHN-V2</font> | ResNet32x4 <br> Wrn16-2 | ResNet32x4 <br> Wrn40-2 | Wrn40-2 <br> ResNet8x4 | Wrn40-2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
+|Teacher <br> Student | <font size=1>ResNet32x4 <br> SHN-V2</font> | ResNet32x4 <br> Wrn_16_2 | ResNet32x4 <br> Wrn_40_2 | Wrn_40_2 <br> ResNet8x4 | Wrn_40_2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
 |:-------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 74.45 | 74.90 | 77.70 | 73.97 | 68.36 | 67.37 | 67.35 | 
 | KD+**Ours** | 75.56 | 75.26 | 77.92 | 77.11 | 69.23 | 68.61 | 69.02 |
