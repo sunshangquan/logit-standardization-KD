@@ -64,6 +64,19 @@ sudo python setup.py develop
 
 Please refer to [CTKD/README.md](./CTKD/README.md)
 
+#### Results and Logs
+
+| Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|WRN-40-2 <br> WRN-40-1|WRN-40-2 <br> WRN-16-2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
+|:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
+| KD | 73.33 | 72.98 | 73.54 | 74.92 | 70.66 | 73.08 | 70.67 |
+| KD+Ours | 76.62 | 74.36 | 74.37 | 76.11 | 71.43 | 74.17 | 71.48 | 
+| CTKD | 73.39 | 73.52 | 73.93 | 75.45 | 71.19 | 73.52 | 70.99 |
+| CTKD+Ours | 76.67 | 74.47 | 74.58 | 76.08 | 71.34 | 74.01 | 71.39 |
+| DKD | 76.32 | 74.68 | 74.81 | 76.24 | 71.97 | 74.11 | 71.06 |
+| DKD+Ours | 77.01 | 74.81 | 74.89 | 76.39 | 72.32 | 74.29 | 71.85 |
+| MLKD | 77.08 | 75.18 | 75.35 | 76.63 | 72.19 | 74.11 | 71.89 |
+| **MLKD+Ours** | **78.28** | **75.22** | **75.56** | **76.95** | **72.33** | **74.32** | **72.27** |
+
 ### Training on ImageNet
 
 - Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`
