@@ -66,6 +66,8 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 #### Results and Logs
 
+1. Teacher and student have identical structures
+
 | Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn-40-2 <br> Wrn-40-1|Wrn-40-2 <br> Wrn-16-2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 73.33 | 72.98 | 73.54 | 74.92 | 70.66 | 73.08 | 70.67 |
@@ -76,6 +78,19 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 | DKD+Ours | [77.01](<./logs/DKD/dkd,resnet32x4,resnet8x4,2,9.txt>) | 74.81 | 74.89 | 76.39 | 72.32 | 74.29 | 71.85 |
 | MLKD | 77.08 | 75.18 | 75.35 | 76.63 | 72.19 | 74.11 | 71.89 |
 | **MLKD+Ours** | [**78.28**](<logs/MLKD/mlkd,resnet32x4,resnet8x4,2,9.txt>) | **75.22** | [**75.56**](<logs/MLKD/mlkd,wrn_40_2,wrn_40_1,2,9.txt>) | **76.95** | **72.33** | [**74.32**](<logs/MLKD/mlkd,res110,res32,2,9.txt>) | [**72.27**](<logs/MLKD/mlkd,res110,res20,2,9.txt>) |
+
+2. Teacher and student have distinct structures
+
+|Teacher <br> Student | ResNet32x4 <br> SHN-V2 | ResNet32x4 <br> Wrn-16-2 | ResNet32x4 <br> Wrn-40-2 | Wrn-40-2 <br> ResNet8x4 | Wrn-40-2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
+|:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
+| KD | 74.45 | 74.90 | 77.70 | 73.97 | 68.36 | 67.37 | 67.35 | 
+| KD+Ours | 75.56 | 75.26 | 77.92 | 77.11 | 69.23 | 68.61 | 69.02 |
+| CTKD | 75.37 | 74.57 | 77.66 | 74.61 | 68.34 | 68.50 | 68.67 | 
+| CTKD+Ours | 76.18 | 75.16 | 77.99 | 77.03 | 69.53 | 68.98 | 69.36
+| DKD | 77.07 | 75.70 | 78.46 | 75.56 | 69.28 | 69.71 | 70.35 | 
+| DKD+Ours | 77.37 | 76.19 | 78.95 | 76.75 | 70.01 | 69.98 | 70.45 |
+| MLKD | 78.44 | 76.52 | 79.26 | 77.33 | 70.78 | 70.57 | 71.04 | 
+| MLKD+Ours | 78.76 | 77.53 | 79.66 | 77.68 | 71.61 | 70.94 | 71.19 |
 
 ### Training on ImageNet
 
