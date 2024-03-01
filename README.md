@@ -64,13 +64,13 @@ sudo python setup.py develop
 
 4. For CTKD
 
-Please refer to [CTKD/README.md](./CTKD/README.md)
+Please refer to [CTKD](./CTKD)
 
 #### Results and Logs
 
 We put the training logs in `./logs` and hyper-linked below. The name of each log file is formated with `KD_TYPE,TEACHER,STUDENT,BASE_TEMPERATURE,KD_WEIGHT.txt`. Due to average operation and randomness, there may be slight differences between the reported results and the logged results. 
 
-1. Teacher and student have **identical** structures
+1. Teacher and student have **identical** structures:
 
 | Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn_40_2 <br> Wrn_40_1|Wrn_40_2 <br> Wrn_16_2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
@@ -83,9 +83,9 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | MLKD | 77.08 | 75.18 | 75.35 | 76.63 | 72.19 | 74.11 | 71.89 |
 | MLKD+**Ours** | [**78.28**](<logs/MLKD/mlkd,resnet32x4,resnet8x4,2,9.txt>) | **75.22** | [**75.56**](<logs/MLKD/mlkd,wrn_40_2,wrn_40_1,2,9.txt>) | **76.95** | **72.33** | [**74.32**](<logs/MLKD/mlkd,res110,res32,2,9.txt>) | [**72.27**](<logs/MLKD/mlkd,res110,res20,2,9.txt>) |
 
-2. Teacher and student have **distinct** structures
+2. Teacher and student have **distinct** structures:
 
-|Teacher <br> Student | <font size=1>ResNet32x4 <br> SHN-V2</font> | ResNet32x4 <br> Wrn_16_2 | ResNet32x4 <br> Wrn_40_2 | Wrn_40_2 <br> ResNet8x4 | Wrn_40_2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
+|Teacher <br> Student | ResNet32x4 <br> SHN-V2 | ResNet32x4 <br> Wrn_16_2 | ResNet32x4 <br> Wrn_40_2 | Wrn_40_2 <br> ResNet8x4 | Wrn_40_2 <br> MN-V2 | VGG13 <br> MN-V2 | ResNet50 <br> MN-V2 |
 |:-------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 74.45 | 74.90 | 77.70 | 73.97 | 68.36 | 67.37 | 67.35 | 
 | KD+**Ours** | [75.56](<logs/KD/kd,resnet32x4,ShuffleV2,2,9.txt>) | [75.26](<logs/KD/kd,resnet32x4,wrn_16_2,3,9.txt>) | [77.92](<logs/KD/kd,resnet32x4,wrn_40_2,3,9.txt>) | [77.11](<logs/KD/kd,wrn_40_2,resnet8x4,2,9.txt>) | [69.23](<logs/KD/kd,wrn_40_2,MobileNetV2,3,9.txt>) | [68.61](<logs/KD/kd,vgg13,MobileNetV2,3,9.txt>) | [69.02](<logs/KD/kd,ResNet50,MobileNetV2,3,1.txt>) |
@@ -106,7 +106,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 
 ## Distilling ViTs
 
-Please refer to [tiny-transformers/README.md](./tiny-transformers/README.md)
+Please refer to [tiny-transformers](./tiny-transformers)
 
 
 # Acknowledgement
