@@ -1,6 +1,6 @@
 from ._base import Vanilla
 from .KD import KD
-from .KD_ours import KD_ours
+from .MLKD import MLKD
 from .AT import AT
 from .OFD import OFD
 from .RKD import RKD
@@ -18,7 +18,7 @@ from .DKD import DKD
 distiller_dict = {
     "NONE": Vanilla,
     "KD": KD,
-    "KD_ours": KD_ours,
+    "MLKD": MLKD,
     "AT": AT,
     "OFD": OFD,
     "RKD": RKD,

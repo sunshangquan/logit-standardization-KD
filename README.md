@@ -1,7 +1,7 @@
 # Code release for Logit Standardization in Knowledge Distillation (CVPR 2024).
 
 
-<img src=.github/1_1-1.png width=60% />  |  <img src=.github/2_2-1.png width=60% />
+<img src=.github/1_1-1.png width=40% />  |  <img src=.github/2_2-1.png width=40% />
 :-------------------------:|:-------------------------:
 Vanilla KD             |  KD w/ our logit standardization
 
@@ -24,7 +24,7 @@ Install the package:
 
 ```
 sudo pip3 install -r requirements.txt
-sudo python3 setup.py develop
+sudo python setup.py develop
 ```
 
 ## Distilling CNNs
@@ -34,16 +34,39 @@ sudo python3 setup.py develop
 - Download the `cifar_teachers.tar` at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints> and untar it to `./download_ckpts` via `tar xvf cifar_teachers.tar`.
 
 
+1. For KD
+
   ```bash
-  python3 tools/train_ours.py --cfg configs/cifar100/ours/res32x4_res8x4.yaml 
+  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml # KD
+
+  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 # KD+Ours
   ```
+
+2. For DKD
+
+  ```bash
+  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml # KD
+
+  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 # KD+Ours
+  ```
+3. For MLKD
+
+  ```bash
+  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml # KD
+
+  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 # KD+Ours
+  ```
+
+4. For CTKD
+
+Please refer to [CTKD/README.md](./CTKD/README.md)
 
 ### Training on ImageNet
 
 - Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`
 
   ```bash
-  python3 tools/train_ours.py --cfg configs/imagenet/r34_r18/kd_ours.yaml
+  python tools/train.py --cfg configs/imagenet/r34_r18/kd_ours.yaml
   ```
 
 ## Distilling ViTs

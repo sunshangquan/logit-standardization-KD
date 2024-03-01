@@ -4,8 +4,15 @@ import torch.nn.functional as F
 
 from ._base import Distiller
 
+def normalize(logit):
+    mean = logit.mean(dim=-1, keepdims=True)
+    stdv = logit.std(dim=-1, keepdims=True)
+    return (logit - mean) / (1e-7 + stdv)
 
-def dkd_loss(logits_student, logits_teacher, target, alpha, beta, temperature):
+def dkd_loss(logits_student_in, logits_teacher_in, target, alpha, beta, temperature, logit_stand):
+    logits_student = normalize(logits_student_in) if logit_stand else logits_student_in
+    logits_teacher = normalize(logits_teacher_in) if logit_stand else logits_teacher_in
+
     gt_mask = _get_gt_mask(logits_student, target)
     other_mask = _get_other_mask(logits_student, target)
     pred_student = F.softmax(logits_student / temperature, dim=1)
@@ -61,6 +68,7 @@ class DKD(Distiller):
         self.beta = cfg.DKD.BETA
         self.temperature = cfg.DKD.T
         self.warmup = cfg.DKD.WARMUP
+        self.logit_stand = cfg.EXPERIMENT.LOGIT_STAND 
 
     def forward_train(self, image, target, **kwargs):
         logits_student, _ = self.student(image)
@@ -76,6 +84,7 @@ class DKD(Distiller):
             self.alpha,
             self.beta,
             self.temperature,
+            self.logit_stand,
         )
         losses_dict = {
             "loss_ce": loss_ce,
