@@ -98,7 +98,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 
 ### Training on ImageNet
 
-- Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`
+- Download the dataset at <https://image-net.org/> and put it to `./data/imagenet`
 
   ```bash
   python tools/train.py --cfg configs/imagenet/r34_r18/kd_ours.yaml

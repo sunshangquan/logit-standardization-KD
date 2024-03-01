@@ -24,7 +24,7 @@ from crd.criterion import CRDLoss
 from dataset.cifar100 import (get_cifar100_dataloaders,
                               get_cifar100_dataloaders_sample)
 from dataset.imagenet import get_imagenet_dataloader, imagenet_list
-from distiller_zoo import PKT, DistillKL, DKDloss, Similarity, VIDLoss
+from distiller_zoo import PKT, DistillKL, DKDloss, Similarity, VIDLoss, DistillKL_logit_stand
 from helper.loops import train_distill as train
 from helper.loops import validate
 from helper.util import (adjust_learning_rate, parser_config_save,
@@ -105,7 +105,7 @@ def parse_option():
     parser.add_argument('--nce_m', default=0.5, type=float, help='momentum for non-parametric updates')
 
     parser.add_argument('--save_model', action='store_true')
-
+    parser.add_argument('--logit_stand', action='store_true')
     # switch for edge transformation
     parser.add_argument('--no_edge_transform', action='store_true') # default=false
     
@@ -311,7 +311,7 @@ def main_worker(gpu, ngpus_per_node, opt):
     trainable_list.append(mlp)
 
     criterion_cls = nn.CrossEntropyLoss()
-    criterion_div = DistillKL()
+    criterion_div = DistillKL() if opt.logit_stand else DistillKL_logit_stand()
     if opt.distill == 'kd':
         criterion_kd = DistillKL()
     elif opt.distill == 'crd':
