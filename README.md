@@ -1,7 +1,7 @@
 # Code release for Logit Standardization in Knowledge Distillation (CVPR 2024).
 
 
-![](.github/1_1-1.png){:height="50%" width="50%"}  |  ![](.github/2_2-1.png){:height="50%" width="50%"}
+![Alt](.github/1_1-1.png =100x)  |  ![Alt](.github/2_2-1.png =100x)
 :-------------------------:|:-------------------------:
 Vanilla KD             |  KD w/ our logit standardization
 
