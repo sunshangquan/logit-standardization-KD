@@ -68,6 +68,8 @@ Please refer to [CTKD/README.md](./CTKD/README.md)
 
 #### Results and Logs
 
+We put the training logs in `logs` and hyper-linked below. The name of each log file is formated with `KD_TYPE,TEACHER,STUDENT,BASE_TEMPERATURE,KD_WEIGHT.txt`. Due to average operation and randomness, there may be slight difference between the reported results and the logged results. 
+
 1. Teacher and student have identical structures
 
 | Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn_40_2 <br> Wrn_40_1|Wrn_40_2 <br> Wrn_16_2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
