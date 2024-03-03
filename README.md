@@ -75,9 +75,9 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn_40_2 <br> Wrn_40_1|Wrn_40_2 <br> Wrn_16_2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 73.33 | 72.98 | 73.54 | 74.92 | 70.66 | 73.08 | 70.67 |
-| KD+**Ours** | [76.62](<./logs/KD/kd,resnet32x4,resnet8x4,2,9.txt>) | [74.36](<logs/KD/kd,vgg13,vgg8,3,9.txt>) | [74.37](<logs/KD/kd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.11](<logs/KD/kd,wrn_40_2,wrn_16_2,2,9.txt>) | 71.43 | 74.17 | 71.48 | 
+| KD+**Ours** | [76.62](<./logs/KD/kd,resnet32x4,resnet8x4,2,9.txt>) | [74.36](<logs/KD/kd,vgg13,vgg8,3,9.txt>) | [74.37](<logs/KD/kd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.11](<logs/KD/kd,wrn_40_2,wrn_16_2,2,9.txt>) | [71.43](<logs/KD/kd,resnet56,resnet20,2,9.txt>) | [74.17](<logs/KD/kd,resnet110,resnet32,2,9.txt>) | 71.48 | 
 | CTKD | 73.39 | 73.52 | 73.93 | 75.45 | 71.19 | 73.52 | 70.99 |
-| CTKD+**Ours** | [76.67](<logs/CTKD/kd,resnet32x4,resnet8x4,2,9.txt>) | 74.47 | 74.58 | 76.08 | 71.34 | 74.01 | 71.39 |
+| CTKD+**Ours** | [76.67](<logs/CTKD/ctkd,resnet32x4,resnet8x4,2,9.txt>) | [74.47](<logs/CTKD/ctkd,vgg13,vgg8,2,9.txt>) | [74.58](<ogs/CTKD/ctkd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.08](<logs/CTKD/ctkd,wrn_40_2,wrn_16_2,2,9.txt>) | [71.34](<logs/CTKD/ctkd,resnet56,resnet20,2,9.txt>) | 74.01 | 71.39 |
 | DKD | 76.32 | 74.68 | 74.81 | 76.24 | 71.97 | 74.11 | 71.06 |
 | DKD+**Ours** | [77.01](<./logs/DKD/dkd,resnet32x4,resnet8x4,2,9.txt>) | 74.81 | 74.89 | 76.39 | 72.32 | 74.29 | 71.85 |
 | MLKD | 77.08 | 75.18 | 75.35 | 76.63 | 72.19 | 74.11 | 71.89 |
@@ -90,7 +90,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | KD | 74.45 | 74.90 | 77.70 | 73.97 | 68.36 | 67.37 | 67.35 | 
 | KD+**Ours** | [75.56](<logs/KD/kd,resnet32x4,ShuffleV2,2,9.txt>) | [75.26](<logs/KD/kd,resnet32x4,wrn_16_2,3,9.txt>) | [77.92](<logs/KD/kd,resnet32x4,wrn_40_2,3,9.txt>) | [77.11](<logs/KD/kd,wrn_40_2,resnet8x4,2,9.txt>) | [69.23](<logs/KD/kd,wrn_40_2,MobileNetV2,3,9.txt>) | [68.61](<logs/KD/kd,vgg13,MobileNetV2,3,9.txt>) | [69.02](<logs/KD/kd,ResNet50,MobileNetV2,3,1.txt>) |
 | CTKD | 75.37 | 74.57 | 77.66 | 74.61 | 68.34 | 68.50 | 68.67 | 
-| CTKD+**Ours** | 76.18 | 75.16 | 77.99 | 77.03 | 69.53 | 68.98 | 69.36
+| CTKD+**Ours** | [76.18](<logs/CTKD/ctkd,resnet32x4,ShuffleV2,2,9.txt>) | [75.16](<logs/CTKD/ctkd,resnet32x4,wrn_16_2,2,9.txt>) | [77.99](<logs/CTKD/ctkd,resnet32x4,wrn_40_2,2,9.txt>) | [77.03](<logs/CTKD/ctkd,wrn_40_2,resnet8x4,2,9.txt>) | [69.53](<logs/CTKD/ctkd,wrn_40_2,MobileNetV2,2,9.txt>) | [68.98](<logs/CTKD/ctkd,vgg13,MobileNetV2,2,9.txt>) | 69.36
 | DKD | 77.07 | 75.70 | 78.46 | 75.56 | 69.28 | 69.71 | 70.35 | 
 | DKD+**Ours** | [77.37](<logs/DKD/dkd,resnet32x4,ShuffleV2,2,9.txt>) | 76.19 | 78.95 | 76.75 | 70.01 | 69.98 | 70.45 |
 | MLKD | 78.44 | 76.52 | 79.26 | 77.33 | 70.78 | 70.57 | 71.04 | 
