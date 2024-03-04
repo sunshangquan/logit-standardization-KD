@@ -92,7 +92,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | CTKD | 75.37 | 74.57 | 77.66 | 74.61 | 68.34 | 68.50 | 68.67 | 
 | CTKD+**Ours** | [76.18](<logs/CTKD/ctkd,resnet32x4,ShuffleV2,2,9.txt>) | [75.16](<logs/CTKD/ctkd,resnet32x4,wrn_16_2,2,9.txt>) | [77.99](<logs/CTKD/ctkd,resnet32x4,wrn_40_2,2,9.txt>) | [77.03](<logs/CTKD/ctkd,wrn_40_2,resnet8x4,2,9.txt>) | [69.53](<logs/CTKD/ctkd,wrn_40_2,MobileNetV2,2,9.txt>) | [68.98](<logs/CTKD/ctkd,vgg13,MobileNetV2,2,9.txt>) | [69.36](<logs/CTKD/ctkd,ResNet50,MobileNetV2,2,9.txt>)
 | DKD | 77.07 | 75.70 | 78.46 | 75.56 | 69.28 | 69.71 | 70.35 | 
-| DKD+**Ours** | [77.37](<logs/DKD/dkd,resnet32x4,ShuffleV2,2,9.txt>) | 76.19 | 78.95 | 76.75 | 70.01 | 69.98 | 70.45 |
+| DKD+**Ours** | [77.37](<logs/DKD/dkd,resnet32x4,ShuffleV2,2,9.txt>) | [76.19](<logs/DKD/dkd,resnet32x4,wrn_16_2,2,9,2.0.txt>) | [78.95](<logs/DKD/dkd,resnet32x4,wrn_40_2,2,9,8.0.txt>) | 76.75 | 70.01 | 69.98 | 70.45 |
 | MLKD | 78.44 | 76.52 | 79.26 | 77.33 | 70.78 | 70.57 | 71.04 | 
 | MLKD+**Ours** | **78.76** | [**77.53**](<logs/MLKD/mlkd,resnet32x4,wrn_16_2,2,9.txt>) | [**79.66**](<logs/MLKD/mlkd,resnet32x4,wrn_40_2,2,9.txt>) | **77.68** | **71.61** | **70.94** | [**71.19**](<logs/MLKD/mlkd,res50,mv2,2,9.txt>) |
 
