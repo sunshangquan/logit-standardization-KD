@@ -1,5 +1,6 @@
 # Code release for Logit Standardization in Knowledge Distillation (CVPR 2024).
 
+[arXiv](<https://arxiv.org/abs/2403.01427>)
 
 <img src=.github/1_1-1.png width=50% />  |  <img src=.github/2_2-1.png width=50% />
 :-------------------------:|:-------------------------:
