@@ -80,7 +80,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | CTKD | 73.39 | 73.52 | 73.93 | 75.45 | 71.19 | 73.52 | 70.99 |
 | CTKD+**Ours** | [76.67](<logs/CTKD/ctkd,resnet32x4,resnet8x4,2,9.txt>) | [74.47](<logs/CTKD/ctkd,vgg13,vgg8,2,9.txt>) | [74.58](<ogs/CTKD/ctkd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.08](<logs/CTKD/ctkd,wrn_40_2,wrn_16_2,2,9.txt>) | [71.34](<logs/CTKD/ctkd,resnet56,resnet20,2,9.txt>) | [74.01](<logs/CTKD/ctkd,resnet110,resnet32,2,9.txt>) | [71.39](<logs/CTKD/ctkd,resnet110,resnet20,2,9.txt>) |
 | DKD | 76.32 | 74.68 | 74.81 | 76.24 | 71.97 | 74.11 | 71.06 |
-| DKD+**Ours** | [77.01](<./logs/DKD/dkd,resnet32x4,resnet8x4,2,9.txt>) | 74.81 | [74.89](<logs/DKD/dkd,wrn_40_2,wrn_40_1,2,12,2.0.txt>) | [76.39](<logs/DKD/dkd,wrn_40_2,wrn_16_2,2,12,2.0.txt>) | 72.32 | 74.29 | 71.85 |
+| DKD+**Ours** | [77.01](<./logs/DKD/dkd,resnet32x4,resnet8x4,2,9.txt>) | [74.81](<logs/DKD/dkd,vgg13,vgg8,2,15,2.0.txt>) | [74.89](<logs/DKD/dkd,wrn_40_2,wrn_40_1,2,12,2.0.txt>) | [76.39](<logs/DKD/dkd,wrn_40_2,wrn_16_2,2,12,2.0.txt>) | 72.32 | 74.29 | 71.85 |
 | MLKD | 77.08 | 75.18 | 75.35 | 76.63 | 72.19 | 74.11 | 71.89 |
 | MLKD+**Ours** | [**78.28**](<logs/MLKD/mlkd,resnet32x4,resnet8x4,2,9.txt>) | **75.22** | [**75.56**](<logs/MLKD/mlkd,wrn_40_2,wrn_40_1,2,9.txt>) | **76.95** | **72.33** | [**74.32**](<logs/MLKD/mlkd,res110,res32,2,9.txt>) | [**72.27**](<logs/MLKD/mlkd,res110,res20,2,9.txt>) |
 
@@ -93,7 +93,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | CTKD | 75.37 | 74.57 | 77.66 | 74.61 | 68.34 | 68.50 | 68.67 | 
 | CTKD+**Ours** | [76.18](<logs/CTKD/ctkd,resnet32x4,ShuffleV2,2,9.txt>) | [75.16](<logs/CTKD/ctkd,resnet32x4,wrn_16_2,2,9.txt>) | [77.99](<logs/CTKD/ctkd,resnet32x4,wrn_40_2,2,9.txt>) | [77.03](<logs/CTKD/ctkd,wrn_40_2,resnet8x4,2,9.txt>) | [69.53](<logs/CTKD/ctkd,wrn_40_2,MobileNetV2,2,9.txt>) | [68.98](<logs/CTKD/ctkd,vgg13,MobileNetV2,2,9.txt>) | [69.36](<logs/CTKD/ctkd,ResNet50,MobileNetV2,2,9.txt>)
 | DKD | 77.07 | 75.70 | 78.46 | 75.56 | 69.28 | 69.71 | 70.35 | 
-| DKD+**Ours** | [77.37](<logs/DKD/dkd,resnet32x4,ShuffleV2,2,9.txt>) | [76.19](<logs/DKD/dkd,resnet32x4,wrn_16_2,2,9,2.0.txt>) | [78.95](<logs/DKD/dkd,resnet32x4,wrn_40_2,2,9,8.0.txt>) | 76.75 | 70.01 | 69.98 | 70.45 |
+| DKD+**Ours** | [77.37](<logs/DKD/dkd,resnet32x4,ShuffleV2,2,9.txt>) | [76.19](<logs/DKD/dkd,resnet32x4,wrn_16_2,2,9,2.0.txt>) | [78.95](<logs/DKD/dkd,resnet32x4,wrn_40_2,2,9,8.0.txt>) | 76.75 | [70.01](<logs/DKD/dkd,wrn_40_2,MobileNetV2,2,15,2.0.txt>) | 69.98 | [70.45](<logs/DKD/dkd,ResNet50,MobileNetV2,2,15,2.0.txt>) |
 | MLKD | 78.44 | 76.52 | 79.26 | 77.33 | 70.78 | 70.57 | 71.04 | 
 | MLKD+**Ours** | **78.76** | [**77.53**](<logs/MLKD/mlkd,resnet32x4,wrn_16_2,2,9.txt>) | [**79.66**](<logs/MLKD/mlkd,resnet32x4,wrn_40_2,2,9.txt>) | **77.68** | **71.61** | **70.94** | [**71.19**](<logs/MLKD/mlkd,res50,mv2,2,9.txt>) |
 
