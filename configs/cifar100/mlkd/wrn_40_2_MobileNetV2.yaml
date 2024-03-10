@@ -1,6 +1,6 @@
 EXPERIMENT:
   NAME: ""
-  TAG: "kd_ours,wrn_40_2,MobileNetV2"
+  TAG: "MLKD,wrn_40_2,MobileNetV2"
   PROJECT: "cifar100_baselines"
 DISTILLER:
   TYPE: "MLKD"

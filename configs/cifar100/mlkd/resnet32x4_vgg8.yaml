@@ -1,6 +1,6 @@
 EXPERIMENT:
   NAME: ""
-  TAG: "kd_ours,res32x4,vgg8"
+  TAG: "MLKD,res32x4,vgg8"
   PROJECT: "cifar100_baselines_ori"
 DISTILLER:
   TYPE: "MLKD"
