@@ -29,15 +29,22 @@ def inter_distill_loss(feat_t, feat_s, transform_type):
     feat_s = trans_func(feat_s)
     return (feat_t - feat_s).pow(2).mean()
 
+def normalize(logit):
+    mean = logit.mean(dim=-1, keepdims=True)
+    stdv = logit.std(dim=-1, keepdims=True)
+    return (logit - mean) / (1e-6+stdv)
 
-def logit_distill_loss(logits_t, logits_s, loss_type, temperature):
+def logit_distill_loss(logits_t, logits_s, loss_type, temperature, logit_standard, extra_weight_in=10):
     if loss_type == "soft":
-        distillation_loss = F.kl_div(
-            F.log_softmax(logits_s / temperature, dim=1),
-            F.log_softmax(logits_t / temperature, dim=1),
-            reduction='sum',
-            log_target=True
-        ) * (temperature * temperature) / logits_s.numel()
+        logits_s_ = normalize(logits_s) if logit_standard else logits_s
+        logits_t_ = normalize(logits_t) if logit_standard else logits_t
+        extra_weight = extra_weight_in if logit_standard else 1
+        distillation_loss = extra_weight * F.kl_div(
+            F.log_softmax(logits_s_ / temperature, dim=1),
+            F.log_softmax(logits_t_ / temperature, dim=1),
+            reduction='none',
+            # log_target=True
+        ).sum(1).mean() * (temperature * temperature)
     elif loss_type == "hard":
         distillation_loss = F.cross_entropy(logits_s, logits_t.argmax(dim=1))
     else:
@@ -58,6 +65,9 @@ class DistillationWrapper(nn.Module):
         self.logit_loss_type = cfg.DISTILLATION.LOGIT_LOSS
         self.teacher_img_size = cfg.DISTILLATION.TEACHER_IMG_SIZE
         self.offline = cfg.DISTILLATION.OFFLINE
+        self.temperature = cfg.DISTILLATION.LOGIT_TEMP
+        self.logit_standard = cfg.DISTILLATION.LOGIT_STANDARD
+        self.extra_weight_in = cfg.DISTILLATION.EXTRA_WEIGHT_IN
         assert not self.offline or not self.enable_logit, 'Logit distillation is not supported when offline is enabled.'
 
         self.student_model = student_model
@@ -122,6 +132,6 @@ class DistillationWrapper(nn.Module):
                 feat_s = F.interpolate(feat_s, dsize, mode='bilinear', align_corners=False)
                 loss_inter = loss_inter + inter_distill_loss(feat_t, feat_s, self.inter_transform_type)
 
-        loss_logit = logit_distill_loss(logits_t, logits_s, self.logit_loss_type) if self.enable_logit else x.new_tensor(0.0)
+        loss_logit = logit_distill_loss(logits_t, logits_s, self.logit_loss_type, self.temperature, self.logit_standard, extra_weight_in=self.extra_weight_in) if self.enable_logit else x.new_tensor(0.0)
 
         return loss_inter, loss_logit

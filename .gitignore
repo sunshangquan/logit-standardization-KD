@@ -1,2 +1,14 @@
+# script
+git.sh
+# checkpoints
 logs/tiny-transformer/pit-ti_c100_KD_ours_model_epoch_0269.pyth
 logs/tiny-transformer/pvt-ti_c100_KD_ours_model_epoch_0268.pyth
+# paths to teacher weights, data, output
+/download_ckpts
+/data
+/output
+# paths to teacher weights, data, output for tiny-transformers
+/tiny-transformers/work_dirs
+/tiny-transformers/data
+# paths to teacher weights, data, output for CTKD
+/CTKD/save
