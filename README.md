@@ -47,26 +47,26 @@ sudo python setup.py develop
 
   ```bash
   # KD
-  python tools/train.py --cfg configs/cifar100/kd/res32x4_res8x4.yaml
+  python tools/train.py --cfg configs/cifar100/kd/resnet32x4_resnet8x4.yaml
   # KD+Ours
-  python tools/train.py --cfg configs/cifar100/kd/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
+  python tools/train.py --cfg configs/cifar100/kd/resnet32x4_resnet8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 
 2. For DKD
 
   ```bash
   # DKD
-  python tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml 
+  python tools/train.py --cfg configs/cifar100/dkd/resnet32x4_resnet8x4.yaml 
   # DKD+Ours
-  python tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
+  python tools/train.py --cfg configs/cifar100/dkd/resnet32x4_resnet8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 3. For MLKD
 
   ```bash
   # MLKD
-  python tools/train.py --cfg configs/cifar100/mlkd/res32x4_res8x4.yaml
+  python tools/train.py --cfg configs/cifar100/mlkd/resnet32x4_resnet8x4.yaml
   # MLKD+Ours
-  python tools/train.py --cfg configs/cifar100/mlkd/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
+  python tools/train.py --cfg configs/cifar100/mlkd/resnet32x4_resnet8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 
 4. For CTKD
