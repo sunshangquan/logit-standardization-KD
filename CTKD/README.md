@@ -1,24 +1,7 @@
 # **Our Logit Standardization** with CTKD
 
-This repo is from the [pytorch implementation](<https://github.com/zhengli97/CTKD>) for "Curriculum Temperature for Knowledge Distillation" (AAAI 2023) https://arxiv.org/abs/2211.16231
+This is the repository for the experiments of our logit standardization's facilitating the distillation of CTKD. It is from the [pytorch implementation](<https://github.com/zhengli97/CTKD>) for "Curriculum Temperature for Knowledge Distillation" (AAAI 2023) https://arxiv.org/abs/2211.16231
 
-
-### Main Results
-
-On CIFAR-100:
-
-| Teacher <br> Student |RN-56 <br> RN-20|RN-110 <br> RN-32| RN-110 <br> RN-20| WRN-40-2 <br> WRN-16-2| WRN-40-2 <br> WRN-40-1 | VGG-13 <br> VGG-8|
-|:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|
-| KD | 70.66 | 73.08 | 70.66 | 74.92 | 73.54 | 72.98 |
-| +CTKD | 71.19 | 73.52 | 70.99 | 75.45 | 73.93 | 73.52 |
-| +CTKD**+Ours** | **71.19** | **73.52** | **70.99** | **75.45** | **73.93** | **73.52** |
-
-On ImageNet-2012:
-
-|                 | Teacher <br> (RN-34) | Student <br> (RN-18) | KD | +CTKD 
-|:---------------:|:---------------:|:-----------------:|:-----------------:|:-----------------:|
-| Top-1           | 73.96   | 70.26 | 70.83 | 71.32 |
-| Top-5           | 91.58   | 89.50 | 90.31 | 90.27 |
 
 ## Requirements 
 

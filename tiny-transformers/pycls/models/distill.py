@@ -32,7 +32,7 @@ def inter_distill_loss(feat_t, feat_s, transform_type):
 def normalize(logit):
     mean = logit.mean(dim=-1, keepdims=True)
     stdv = logit.std(dim=-1, keepdims=True)
-    return (logit - mean) / (1e-6+stdv)
+    return (logit - mean) / (1e-7+stdv)
 
 def logit_distill_loss(logits_t, logits_s, loss_type, temperature, logit_standard, extra_weight_in=10):
     if loss_type == "soft":

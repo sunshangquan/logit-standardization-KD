@@ -19,7 +19,7 @@ python3 train_student.py --path-t ./save/models/ResNet34/resnet34.pth \
         --batch_size 256 --epochs 120 --dataset imagenet \
         --gpu_id 0,1,2,3,4,5,6,7 --num_workers 32 \
         --multiprocessing-distributed --learning_rate 0.1 --lr_decay_epochs 30,60,90 --weight_decay 1e-4 \
-        --model_s ResNet18 -r 1 -a 1 -b 0 --kd_T 4 \
+        --model_s ResNet18 -r 1 -a 2 -b 0 --kd_T 9 \
         --have_mlp 1 --mlp_name 'global' \
         --t_start 1 --t_end 20 --cosine_decay 1 \ 
         --decay_max 0 --decay_min -1 --decay_loops 5 \

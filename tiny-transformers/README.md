@@ -1,8 +1,8 @@
-# **Our Logit Standardization** for Locality Guidance for Improving Vision Transformers on Tiny Datasets (ECCV 2022)
+# **Our Logit Standardization** for Locality Guidance for Improving Vision Transformers on Tiny Datasets
 
 ## Description
 
-This is from the [PyTorch implementation](<https://github.com/lkhl/tiny-transformers>) of the paper ["Locality Guidance for Improving Vision Transformers on Tiny Datasets"](<https://arxiv.org/pdf/2207.10026.pdf>), supporting different Transformer models (including DeiT, T2T-ViT, PiT, PVT, PVTv2) and the classification dataset, CIFAR-100.
+This is the repository for the experiments of our logit standardization's facilitating the distillation of transformers. It is based on the [PyTorch implementation](<https://github.com/lkhl/tiny-transformers>) of the paper ["Locality Guidance for Improving Vision Transformers on Tiny Datasets"](<https://arxiv.org/pdf/2207.10026.pdf>), supporting different Transformer models (including DeiT, T2T-ViT, PiT, PVT, PVTv2) and the classification dataset, CIFAR-100.
 
 ## Usage
 
@@ -54,7 +54,7 @@ Besides, we provide configurations for different models and different datasets a
 python run_net.py --mode train --cfg configs/resnet/r-56_c100.yaml
 ```
 
-**Step 2:** train the target VT.
+**Step 2:** Configure ```DISTILLATION.LOGIT_STANDARD```, ```DISTILLATION.LOGIT_TEMP``` and ```DISTILLATION.EXTRA_WEIGHT_IN``` in the cfg file. Then train the target VT. 
 
 ```shell
 python run_net.py --mode train --cfg configs/deit/deit-ti_c100_KD_ours.yaml

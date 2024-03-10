@@ -47,31 +47,31 @@ sudo python setup.py develop
 
   ```bash
   # KD
-  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml
+  python tools/train.py --cfg configs/cifar100/kd/res32x4_res8x4.yaml
   # KD+Ours
-  python tools/train.py --cfg configs/cifar100/KD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
+  python tools/train.py --cfg configs/cifar100/kd/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 
 2. For DKD
 
   ```bash
   # DKD
-  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml 
+  python tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml 
   # DKD+Ours
-  python tools/train.py --cfg configs/cifar100/DKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
+  python tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 3. For MLKD
 
   ```bash
   # MLKD
-  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml
+  python tools/train.py --cfg configs/cifar100/mlkd/res32x4_res8x4.yaml
   # MLKD+Ours
-  python tools/train.py --cfg configs/cifar100/MLKD/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
+  python tools/train.py --cfg configs/cifar100/mlkd/res32x4_res8x4.yaml --logit-stand --base-temp 2 --kd-weight 9 
   ```
 
 4. For CTKD
 
-Please refer to [CTKD](./CTKD) (in progress).
+Please refer to [CTKD](./CTKD).
 
 #### Results and Logs
 
@@ -113,7 +113,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 
 ## Distilling ViTs
 
-Please refer to [tiny-transformers](./tiny-transformers) (in progress).
+Please refer to [tiny-transformers](./tiny-transformers).
 
 
 # Acknowledgement

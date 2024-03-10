@@ -100,8 +100,8 @@ if __name__ == "__main__":
     parser.add_argument("--cfg", type=str, default="")
     parser.add_argument("--resume", action="store_true")
     parser.add_argument("--logit-stand", action="store_true")
-    parser.add_argument("--base-temp", default=2)
-    parser.add_argument("--kd-weight", default=9)
+    parser.add_argument("--base-temp", type=float, default=2)
+    parser.add_argument("--kd-weight", type=float, default=9)
     parser.add_argument("opts", default=None, nargs=argparse.REMAINDER)
 
     args = parser.parse_args()
