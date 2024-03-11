@@ -12,6 +12,8 @@ Knowledge distillation involves transferring soft labels from a teacher to a stu
 
 ## News
 
+2024.3: Release the code and arXiv
+
 2024.2: Accepted by CVPR 2024
 
 2023.7: Rejected by ICCV 2023
@@ -82,7 +84,7 @@ We put the training logs in `./logs` and hyper-linked below. The name of each lo
 | Teacher <br> Student |ResNet32x4 <br> ResNet8x4|VGG13 <br> VGG8|Wrn_40_2 <br> Wrn_40_1|Wrn_40_2 <br> Wrn_16_2|ResNet56 <br> ResNet20|ResNet110 <br> ResNet32|ResNet110 <br> ResNet20|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|:--------------------:|:--------------------:|
 | KD | 73.33 | 72.98 | 73.54 | 74.92 | 70.66 | 73.08 | 70.67 |
-| KD+**Ours** | [76.62](<./logs/KD/kd,resnet32x4,resnet8x4,2,9.txt>) | [74.36](<logs/KD/kd,vgg13,vgg8,3,9.txt>) | [74.37](<logs/KD/kd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.11](<logs/KD/kd,wrn_40_2,wrn_16_2,2,9.txt>) | [71.43](<logs/KD/kd,resnet56,resnet20,2,9.txt>) | [74.17](<logs/KD/kd,resnet110,resnet32,2,9.txt>) | 71.48 | 
+| KD+**Ours** | [76.62](<./logs/KD/kd,resnet32x4,resnet8x4,2,9.txt>) | [74.36](<logs/KD/kd,vgg13,vgg8,3,9.txt>) | [74.37](<logs/KD/kd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.11](<logs/KD/kd,wrn_40_2,wrn_16_2,2,9.txt>) | [71.43](<logs/KD/kd,resnet56,resnet20,2,9.txt>) | [74.17](<logs/KD/kd,resnet110,resnet32,2,9.txt>) | [71.48](<logs/KD/kd,resnet110,resnet20,4,12.txt>) | 
 | CTKD | 73.39 | 73.52 | 73.93 | 75.45 | 71.19 | 73.52 | 70.99 |
 | CTKD+**Ours** | [76.67](<logs/CTKD/ctkd,resnet32x4,resnet8x4,2,9.txt>) | [74.47](<logs/CTKD/ctkd,vgg13,vgg8,2,9.txt>) | [74.58](<ogs/CTKD/ctkd,wrn_40_2,wrn_40_1,2,9.txt>) | [76.08](<logs/CTKD/ctkd,wrn_40_2,wrn_16_2,2,9.txt>) | [71.34](<logs/CTKD/ctkd,resnet56,resnet20,2,9.txt>) | [74.01](<logs/CTKD/ctkd,resnet110,resnet32,2,9.txt>) | [71.39](<logs/CTKD/ctkd,resnet110,resnet20,2,9.txt>) |
 | DKD | 76.32 | 74.68 | 74.81 | 76.24 | 71.97 | 74.11 | 71.06 |
@@ -132,5 +134,12 @@ If you find that this project helps your research, please consider citing some o
     author={Sun, Shangquan and Ren, Wenqi and Li, Jingzhi and Wang, Rui and Cao, Xiaochun},
     booktitle={Computer Vision and Pattern Recognition (CVPR)},
     year={2024}
+}
+
+@article{sun2024logit,
+  title={Logit Standardization in Knowledge Distillation},
+  author={Sun, Shangquan and Ren, Wenqi and Li, Jingzhi and Wang, Rui and Cao, Xiaochun},
+  journal={arXiv preprint arXiv:2403.01427},
+  year={2024}
 }
 ```
