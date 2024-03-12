@@ -41,7 +41,7 @@ def logit_distill_loss(logits_t, logits_s, loss_type, temperature, logit_standar
         extra_weight = extra_weight_in if logit_standard else 1
         distillation_loss = extra_weight * F.kl_div(
             F.log_softmax(logits_s_ / temperature, dim=1),
-            F.log_softmax(logits_t_ / temperature, dim=1),
+            F.softmax(logits_t_ / temperature, dim=1),
             reduction='none',
             # log_target=True
         ).sum(1).mean() * (temperature * temperature)
