@@ -2,6 +2,7 @@
 git.sh
 /scripts
 # checkpoints
+logs/tiny-transformer/t2t-7_c100_KD_ours_model_epoch_0295.pyth
 logs/tiny-transformer/deit-ti_c100_KD_ours_model_epoch_0269.pyth
 logs/tiny-transformer/pit-ti_c100_KD_ours_model_epoch_0269.pyth
 logs/tiny-transformer/pvt-ti_c100_KD_ours_model_epoch_0268.pyth
