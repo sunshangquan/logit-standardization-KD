@@ -1,6 +1,8 @@
 # [CVPR 2024] Logit Standardization in Knowledge Distillation
 
 ### [ArXiv](<https://arxiv.org/abs/2403.01427>)
+### [Zhihu](<https://zhuanlan.zhihu.com/p/688903391>)
+### [Supplement](<https://sunsean21.github.io/resources/cvpr2024_supp.pdf>)
 
 <img src=.github/1_1-1.png width=50% />  |  <img src=.github/2_2-1.png width=50% />
 :-------------------------:|:-------------------------:
