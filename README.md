@@ -1,6 +1,8 @@
 # [CVPR 2024] Logit Standardization in Knowledge Distillation
 
-[![](https://img.shields.io/badge/paper-arxiv-green.svg)]({https://arxiv.org/abs/2403.01427})     [![](https://img.shields.io/badge/chinese_blog-zhihu-blue.svg)]({https://zhuanlan.zhihu.com/p/688903391})     [![](https://img.shields.io/badge/supplementary_material-pdf-purple)]({https://sunsean21.github.io/resources/cvpr2024_supp.pdf})
+[![](https://img.shields.io/badge/-arxiv-green.svg)]({https://arxiv.org/abs/2403.01427})     [![](https://img.shields.io/badge/chinese_blog-zhihu-blue.svg)]({https://zhuanlan.zhihu.com/p/688903391})     [![](https://img.shields.io/badge/-supplementary_material-purple)]({https://sunsean21.github.io/resources/cvpr2024_supp.pdf})
+
+### [[paper]](<https://arxiv.org/abs/2403.01427>) [[Zhihu]](<https://zhuanlan.zhihu.com/p/688903391>) [[Supplementary Materials]](<https://sunsean21.github.io/resources/cvpr2024_supp.pdf>)
 
 <img src=.github/1_1-1.png width=50% />  |  <img src=.github/2_2-1.png width=50% />
 :-------------------------:|:-------------------------:
