@@ -129,6 +129,8 @@ Please refer to [tiny-transformers](./tiny-transformers).
 |  PiT-Tiny   | 73.58 ( [weights](https://drive.google.com/file/d/1bTG9W0Kf-xNJSA35xv-Wmiw6G1Bfts3m/view?usp=sharing) \| [log](https://drive.google.com/file/d/1qhRMRp-AqBSFLvspHEsM06ANf8p6STox/view?usp=sharing) ) | 78.48 ( [weights](https://drive.google.com/file/d/14dPs5CzhVKqTwuwK3n75C-SWiWa3IQ6A/view?usp=sharing) \| [log](https://drive.google.com/file/d/1zYK9i9YN2mV9GMM02nbPRMOOGwqvehJg/view?usp=sharing) ) |78.76( [weights](https://drive.google.com/file/d/1sBy44PZt0Hn-24Xh3cYEwIIThTU9lO-g/view?usp=sharing) \| [log](../logs/tiny-transformer/pit-ti_c100_KD_ours.txt)) |
 |  PVT-Tiny   | 69.22 ( [weights](https://drive.google.com/file/d/18BbtQ3XF-_tzOB9BNbu04C-KDsHhrqmM/view?usp=sharing) \| [log](https://drive.google.com/file/d/1Qb3sOi0AuXl726hqxXCZSI7i-qH8_1YL/view?usp=sharing) ) | 77.07 ( [weights](https://drive.google.com/file/d/1rDFwcz3s1Irxk3FE4OhHks7qlzmoxM-w/view?usp=sharing) \| [log](https://drive.google.com/file/d/1FJ5ajTGN6zr0Eo12B8gW4XJ2FUIMSNoT/view?usp=sharing) ) |78.43( [weights](https://drive.google.com/file/d/1Ms-Vq5UEpZK1aSjQ3UZGSVJLFhGZdwLX/view?usp=sharing) \| [log](../logs/tiny-transformer/pvt-ti_c100_KD_ours.txt)) |
 
+## Reproduce Figure 3, 4, 5
+Please refer to [visualizations](./tools/visualizations).
 
 # Acknowledgement
 Sincere gratitude to the contributors of mdistiller, CTKD, Multi-Level-Logit-Distillation and tiny-transformers for their distinguished efforts.
