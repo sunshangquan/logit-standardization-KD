@@ -1,7 +1,7 @@
 
 ## Reproduce Figure 3, 4, 5
 
-You could download model weights from [visualization_weights](<https://github.com/sunshangquan/logit-standardization-KD/releases/tag/visualization_weights>) or use your own.
+You could download model weights from [visualization_weights.zip](<https://github.com/sunshangquan/logit-standardization-KD/releases/tag/visualization_weights>) or use your own.
 
 Replace the names in the two jupyter notebooks:
 
