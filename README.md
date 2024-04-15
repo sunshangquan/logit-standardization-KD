@@ -1,6 +1,6 @@
 # [CVPR 2024 Highlight] Logit Standardization in Knowledge Distillation
 
-[![](https://img.shields.io/badge/arXiv-2403.01427-green.svg)](https://arxiv.org/abs/2403.01427)     [![](https://img.shields.io/badge/supplementary-material-purple)](https://sunsean21.github.io/resources/cvpr2024_supp.pdf)     [![](https://img.shields.io/badge/chinese_blog-zhihu-blue.svg)](https://zhuanlan.zhihu.com/p/688903391)
+[![](https://img.shields.io/badge/arXiv-2403.01427-green.svg)](https://arxiv.org/abs/2403.01427)     [![](https://img.shields.io/badge/supplementary-material-purple)](https://sunsean21.github.io/resources/cvpr2024_supp.pdf)     [![](https://img.shields.io/badge/chinese_blog-zhihu-blue.svg)](https://zhuanlan.zhihu.com/p/688903391) [![Closed Issues](https://img.shields.io/github/issues-closed/sunshangquan/logit-standardization-KD)](https://github.com/sunshangquan/logit-standardization-KD/issues?q=is%3Aissue+is%3Aclosed) [![Open Issues](https://img.shields.io/github/issues/sunshangquan/logit-standardization-KD)](https://github.com/sunshangquan/logit-standardization-KD/issues) 
 
 ### [[paper]](<https://arxiv.org/abs/2403.01427>) [[Supplementary Materials]](<https://sunsean21.github.io/resources/cvpr2024_supp.pdf>) [[Zhihu (in Chinese)]](<https://zhuanlan.zhihu.com/p/688903391>)
 
