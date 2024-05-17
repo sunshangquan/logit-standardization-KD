@@ -114,8 +114,8 @@ if __name__ == "__main__":
             cfg.KD.TEMPERATURE = args.base_temp
         elif cfg.DISTILLER.TYPE == 'DKD':
             cfg.DKD.ALPHA = cfg.DKD.ALPHA * args.kd_weight
-            cfg.DKD.BETA = cfg.DKD.ALPHA * args.kd_weight
-            cfg.KD.TEMPERATURE = args.base_temp
+            cfg.DKD.BETA = cfg.DKD.BETA * args.kd_weight
+            cfg.DKD.T = args.base_temp
         elif cfg.DISTILLER.TYPE == 'MLKD':
             cfg.KD.LOSS.KD_WEIGHT = args.kd_weight
             cfg.KD.TEMPERATURE = args.base_temp
