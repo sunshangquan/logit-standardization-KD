@@ -80,7 +80,7 @@ Please refer to [CTKD](./CTKD).
 
 #### Results and Logs
 
-We put the training logs in `./logs` and hyper-linked below. The name of each log file is formated with `KD_TYPE,TEACHER,STUDENT,BASE_TEMPERATURE,KD_WEIGHT.txt`. Due to average operation and randomness, there may be slight differences between the reported results and the logged results. 
+We put the training logs in `./logs` and hyper-linked below. The name of each log file is formated with `KD_TYPE,TEACHER,STUDENT,BASE_TEMPERATURE,KD_WEIGHT.txt`. The possible third value for DKD is the value of BETA. Due to average operation and randomness, there may be slight differences between the reported results and the logged results. 
 
 1. Teacher and student have **identical** structures:
 
